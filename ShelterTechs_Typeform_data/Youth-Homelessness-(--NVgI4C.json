@@ -1,0 +1,1415 @@
+{
+  "id": "NVgI4C",
+  "title": "Youth Homelessness (backup)",
+  "theme": {
+    "href": "https://api.typeform.com/themes/ddwjWd"
+  },
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/s8waTR"
+  },
+  "settings": {
+    "is_public": false,
+    "is_trial": false,
+    "language": "en",
+    "progress_bar": "percentage",
+    "show_progress_bar": false,
+    "show_typeform_branding": false,
+    "meta": {
+      "allow_indexing": false
+    }
+  },
+  "welcome_screens": [
+    {
+      "ref": "11a6ff39-29a2-4259-8589-73d49d804585",
+      "title": "Hello, welcome to SF Service Guide's resource guide for *Youth Homelessness*. Our goal is to help you find the resources that you need.\n\nWe will not ask for any personal information like name or phone number, and all responses will remain confidential.",
+      "properties": {
+        "show_button": true,
+        "button_text": "Start"
+      }
+    }
+  ],
+  "thankyou_screens": [
+    {
+      "ref": "a40913cf-b64e-42c6-a459-053fd2903302",
+      "title": "This guide is only designed for people under 25. Please check out the Adult Homelessness Guide for resource for adults.",
+      "properties": {
+        "show_button": true,
+        "share_icons": false,
+        "button_mode": "redirect",
+        "button_text": "Back to SF Service Guide",
+        "redirect_url": "https://sfserviceguide.org"
+      }
+    },
+    {
+      "ref": "c5a453fc-56a0-4965-b337-1053fc27b811",
+      "title": "Thank you for using Youth Homelessness Guide created by ShelterTech and Larkin Street Youth.",
+      "properties": {
+        "show_button": true,
+        "share_icons": false,
+        "button_mode": "redirect",
+        "button_text": "Go to SF Service Guide",
+        "redirect_url": "https://sfserviceguide.org"
+      }
+    },
+    {
+      "ref": "f8bfced6-2c16-453b-be94-a6c33e68d5b9",
+      "title": "We're working on translations for the Youth Homelessness Guide. \n\nIn the meantime, try calling [*311*](https://sf311.org/) for help finding resources in your preferred language.",
+      "properties": {
+        "show_button": true,
+        "share_icons": false,
+        "button_mode": "redirect",
+        "button_text": "Go to SF 311's website",
+        "redirect_url": "https://sf311.org"
+      }
+    },
+    {
+      "ref": "default_tys",
+      "title": "Done! Your information was sent perfectly.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "pcODYU4KWZOX",
+      "title": "First we need to know a little about you to provide the best results",
+      "ref": "8f83f4df-17ef-4cc2-ab98-fc42a18e71c0",
+      "properties": {
+        "show_button": true,
+        "button_text": "Continue",
+        "fields": [
+          {
+            "id": "JJFsl7OU1W1b",
+            "title": "How old are you?",
+            "ref": "3b4add4d-3a22-4aa0-b9e7-ce4d34192f62",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "muuIsbHThjUG",
+                  "ref": "9b4e8b86-dcaa-4806-92ef-fdc3a3d23365",
+                  "label": "12-17"
+                },
+                {
+                  "id": "dlO695CWFNwY",
+                  "ref": "d0c1c2cc-5467-4f59-89f2-3ad1976a2f75",
+                  "label": "18-24"
+                },
+                {
+                  "id": "VoQKMF3sJ0G8",
+                  "ref": "f58aa9e7-a354-4bcc-9ebc-6812023bf63a",
+                  "label": "25+"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "HyUsKWH3hq3I",
+            "title": "What is your current housing situation?",
+            "ref": "f354c88c-8c46-407d-a896-20821d66812d",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "iKiK7h7U3BVj",
+                  "ref": "82d9e8b2-f2c4-46fe-a19b-4bb08cb954b7",
+                  "label": "On the street"
+                },
+                {
+                  "id": "ZbmZ8fNKqV5N",
+                  "ref": "01559071-9027-4683-bc21-3c4bf2c1c4f3",
+                  "label": "In a shelter or other temporary housing"
+                },
+                {
+                  "id": "oB8gnvEupPuh",
+                  "ref": "119fae49-c588-48d5-9303-113253579e74",
+                  "label": "Housed, but at-risk of homelessness"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "id": "gT3QfjilucpC",
+      "title": "It sounds like you may need to apply for temporary shelter.",
+      "ref": "993a60dc-e1a1-4167-902f-51461bc7b8a5",
+      "properties": {
+        "show_button": true,
+        "button_text": "Continue",
+        "fields": [
+          {
+            "id": "mDKto9WpDuwx",
+            "title": "Do you have a tuberculosis test result form?",
+            "ref": "caedfd9f-4981-434b-822d-eef3423d7000",
+            "validations": {
+              "required": false
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "d0ZBhKc5g4v7",
+            "title": "To get a tuberculosis test result form, visit your [nearest resource center](https://sfserviceguide.org/search?query=tuberculosis+testing) for more information on how to obtain these documents.",
+            "ref": "89204af7-7b46-4048-9324-90b17f24f4b4",
+            "properties": {
+              "hide_marks": false,
+              "button_text": "Continue"
+            },
+            "type": "statement"
+          },
+          {
+            "id": "niJKXisOgvYS",
+            "title": "Do you need a bed for tonight?",
+            "ref": "83888efa-0beb-4114-93ed-883537078bf4",
+            "validations": {
+              "required": false
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "eEslIeSvOuJC",
+            "title": "For a 1 night shelter bed, go to [Lark-Inn Shelter for Youth](https://sfserviceguide.org/services/2030).\n\nCall (800) 447-8223. \n\nArrive by 6:45pm to enter the lottery for a bed.",
+            "ref": "a2fcda2d-8f1f-46e8-bc0c-c5a8b27767d4",
+            "properties": {
+              "hide_marks": false,
+              "button_text": "Continue"
+            },
+            "type": "statement"
+          },
+          {
+            "id": "x5G30KvSJHai",
+            "title": "For a 1 night shelter bed, go to [Diamond Youth Shelter](https://sfserviceguide.org/services/2032).\n\nCall (800) 669-6196. \n\nOpen 24 hours.",
+            "ref": "974f5f98-4eb2-4f8b-be15-660d45edcfed",
+            "properties": {
+              "hide_marks": false,
+              "button_text": "Continue"
+            },
+            "type": "statement"
+          },
+          {
+            "id": "YhZuUbauDpZR",
+            "title": "Have you applied for a 90 day bed?",
+            "ref": "06dcfc96-4eb5-4aef-bbac-cebdcfa32bbc",
+            "validations": {
+              "required": false
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "lcxH8lpfEtfu",
+            "title": "Call [*311*](https://sf311.org/) to apply for a 90 day shelter bed reservation.\n\n• Ask for the Homeless Outreach team. \n• If you're not placed in a shelter right away, call at least once a day to check in. \n• Once you're on the waitlist you can check your place [here](https://sf311.org/shelter-reservation-waitlist).\n\nYou can also make reservations at one of the following resource centers:\n\n• [Lark-Inn Shelter for Youth](https://sfserviceguide.org/services/2030) (Tenderloin)\n• [Mother Brown's / United Council of Human Services](https://sfserviceguide.org/services/306) (Bayview)\n• [Project Everyday Connect](https://sfserviceguide.org/services/2451) (Tenderloin)\n• [Mission Neighborhood Resource Center](https://sfserviceguide.org/services/2445) (Mission)\n",
+            "ref": "eb7046aa-5be8-4d5c-9ec5-a5a9c0e23f35",
+            "properties": {
+              "hide_marks": false,
+              "button_text": "Continue"
+            },
+            "type": "statement"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "id": "zOCow15OlYZB",
+      "title": "Did you know that waitlists for transitional housing average about 3 months and can be up to a year before your request gets fulfilled? \n\nYou should apply for transitional housing as soon as possible, if you haven't already.",
+      "ref": "1505cf03-b27e-4bda-ae26-98db30554337",
+      "properties": {
+        "show_button": true,
+        "button_text": "Continue",
+        "fields": [
+          {
+            "id": "TIm3q2O1FJKJ",
+            "title": "Have you already applied for transitional housing?",
+            "ref": "5b1948d0-3f43-4d1c-a112-1cbc62e09591",
+            "validations": {
+              "required": false
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "okFfl7tZ03nl",
+            "title": "[Larkin Street Youth](https://sfserviceguide.org/resource?id=865) has case managers that can help you identify the best transitional housing options. Examples include: housing for LGBTQ youth, two-year supportive housing programs, housing focused on mental health, and more.\n\nThere will be a new process for Youth Homeless through the Coordinated Entry program, to be announced around June / July of 2019. After this date, please look for updated information on new Access Points or contact Coordinated Entry’s contact number: (415) 487-3300 ext. 7000.",
+            "ref": "a05512dc-4028-4dea-baee-9c7283828b1c",
+            "properties": {
+              "hide_marks": false,
+              "button_text": "Continue"
+            },
+            "type": "statement"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "id": "cbttXGXpvPvM",
+      "title": "You can apply for government assitance paying for food, health insurance, and cash assistance.",
+      "ref": "5724c7c5-40ff-4d8b-b7d7-a6bf7ae7b159",
+      "properties": {
+        "show_button": true,
+        "button_text": "Continue",
+        "fields": [
+          {
+            "id": "WiCH6Wlxxlxi",
+            "title": "Have you applied for government assistance already?",
+            "ref": "7f56d93c-2121-4b86-b335-9f1edb339017",
+            "validations": {
+              "required": false
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "ytV4qWklqRWA",
+            "title": "Do you have a Social Security card?",
+            "ref": "70c7eb65-f7db-47b4-bea9-3a14326d444f",
+            "validations": {
+              "required": false
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "fjHAp2hsZI6S",
+            "title": "Do you have a birth certificate?",
+            "ref": "ee7ca4a1-6f1e-4b7f-a544-f65bd90d71b5",
+            "validations": {
+              "required": false
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "BiZFPHVObGHf",
+            "title": "If you don't have an ID or social security card, but you do have a birth certificate:\n\nYou can get a free or reduced cost state-ID card from [Project Homeless Connect](https://sfserviceguide.org/services/2452).\n\nYou can also apply for a free ID card through [CAAP](https://sfserviceguide.org/services/1479).",
+            "ref": "b1d34a2d-b60b-4949-897a-b20107e638ed",
+            "properties": {
+              "hide_marks": false,
+              "button_text": "Continue"
+            },
+            "type": "statement"
+          },
+          {
+            "id": "HNKu9kLiU97M",
+            "title": "If you don't have an ID or social security card and don't have a birth certificate:\n\nYou'll need to get a copy of your birth certificate. You can obtain a birth certificate through the [San Francisco Superior Court Legal Self-Help Center (ACCESS Center)](https://sfserviceguide.org/resource?id=542). ",
+            "ref": "bcd0e079-edd4-404c-8f53-173a684ea65c",
+            "properties": {
+              "hide_marks": false,
+              "button_text": "Continue"
+            },
+            "type": "statement"
+          },
+          {
+            "id": "m1o2556Zd4W9",
+            "title": "If you have a Social Security card, apply for benefits at your closest GA office, one of the centers is [City and County of San Francisco Human Services Agency](https://sfserviceguide.org/resource?id=892).\n\nMake an online appointment for shorter wait times.\n\nYou should apply for:\n\n• Food Assistance - [Calfresh](https://sfserviceguide.org/services/2461)\n• Health Insurance - [Medi-Cal](https://sfserviceguide.org/services/2462)\n• Cash Assistance - [County Adult Assistance Program](https://sfserviceguide.org/resource?id=494)",
+            "ref": "5ba004c1-ceed-4000-8082-8905c3dcbad2",
+            "properties": {
+              "hide_marks": false,
+              "button_text": "Continue"
+            },
+            "type": "statement"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "id": "pTFc2JfHnvDy",
+      "title": "Next, you should consider looking for paths to stable income. Here are some services to help you find work.",
+      "ref": "78a619b4-f383-48f3-a26e-dd8d94b8df9a",
+      "properties": {
+        "show_button": true,
+        "button_text": "Continue",
+        "fields": [
+          {
+            "id": "bqi7DMjWrH1A",
+            "title": "[Larkin Street Academy Services](https://sfserviceguide.org/services/2463)\nA program for education and employment including career training, job search help, computer classes, resume and cover letter help, and interview training.\n\n[Job Corps](https://recruiting.jobcorps.gov/)\nFree training and education program that helps eligible young men and women get career skills and experiencing.\n\n[Jobtrain](https://www.jobtrainworks.org/)\nA nonprofit that combines vocational training, academics, and essential skills development preparing students to go from unemployed to self sufficiency.\n\n[Dress for Success](https://sfserviceguide.org/resource?id=875) (Women only)\nDress for Success helps women develop career skills and find work.",
+            "ref": "3ab83df2-b500-46b0-b667-5baf3aa2aaac",
+            "properties": {
+              "hide_marks": false,
+              "button_text": "Continue"
+            },
+            "type": "statement"
+          },
+          {
+            "id": "NX1784xvC3TI",
+            "title": "Do you need professional clothing?",
+            "ref": "628ab6ac-8822-4e54-8f5d-4333c534866c",
+            "validations": {
+              "required": false
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "Y4pui4a9K1Aw",
+            "title": "Try these two resources:\n\n• [St. Anthony's Clothing Program](https://sfserviceguide.org/services/310)\n• [Dress for Success for Women (Women only)](https://sfserviceguide.org/services/2302)",
+            "ref": "748889c8-1149-4186-9904-5a26984a162b",
+            "properties": {
+              "hide_marks": false,
+              "button_text": "Continue"
+            },
+            "type": "statement"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "id": "Mvrr0nmKgbzI",
+      "title": "Do you need to find free meals?",
+      "ref": "51c4f3d0-1c48-4681-a9e8-e98f2f2a4fac",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "eT8Kx5tahmF7",
+      "title": "[Glide](https://sfserviceguide.org/services/441) offers 3 meals daily\n\n[St. Anthony's](https://sfserviceguide.org/services/305) offers a hot lunch daily\n\n[Mother Brown's / United Council of Human Services](https://sfserviceguide.org/services/86) offers 2 hot meals daily",
+      "ref": "26a1e46b-1ea0-4394-a542-47678d0351dc",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "PJ1r7Lf4fDv7",
+      "title": "Do you need medical care?",
+      "ref": "b1ea2d19-e95b-44fa-b35d-0747c4536dc7",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "mBzDbsowKKFi",
+      "title": "Is it an emergency?",
+      "ref": "18c76bd5-98d8-44a2-b8b5-a788a71dbb68",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "NaAqITnMzMTC",
+      "title": "For emergency medical care, call 911 or go to [SF General Hospital](https://sfserviceguide.org/resource?id=117).",
+      "ref": "bd5dd860-2c0a-43de-af14-5a54610a5751",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "XcibJv4IIMPT",
+      "title": "For non-emergency medical care, contact these resources:\n\n• [3rd Street Youth Center](https://sfserviceguide.org/services/145)\n• [Michael Baxter Youth Medical Clinic](https://sfserviceguide.org/services/2031)\n• [Huckleberry Youth Heath Center](https://sfserviceguide.org/services/353)\n• [Haight-Ashbury Free Clinic](https://sfserviceguide.org/services/2369)\n• [Zuckerberg SF General Hospital](https://sfserviceguide.org/resource?id=117)",
+      "ref": "8a147bf7-7f87-4ab8-afab-44e67c244c48",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "A1bttUY037GU",
+      "title": "Do you need help finding storage?",
+      "ref": "6b9e987a-48c7-4f1d-ab40-22c0e7b042b2",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "G4qIPogL408m",
+      "title": "Here are some storage options:\n\n• [YMCA](https://sfserviceguide.org/resource?id=798) offers low-cost storage options\n• [DPW](https://sfserviceguide.org/resource?id=25) provides clothing storage",
+      "ref": "da2a96c7-898e-4787-8a66-2a75463206ff",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "jNshg8AAShMd",
+      "title": "Do you need help finding internet access?",
+      "ref": "fa449ca8-9e61-45fd-9606-4253afde5682",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "LxolnNAPAWTe",
+      "title": "All branches of the [San Francisco Public Library](https://sfpl.libanswers.com/faq/88545) offer free internet access.",
+      "ref": "ccb37f82-9a5d-43b0-9a75-fd2b1172157f",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "F8OUSz847KZ2",
+      "title": "Thank you for using the Youth Homelessness Guide created by ShelterTech and Larkin Street Youth.\n\nWe're still a new service and your feedback is important. We're conducting user interviews and would like to contact you to participate. They last for about 1 hour and you would be compensated with a $40 gift card.\n\nCan we have your name and phone number or email address to contact you?",
+      "ref": "b1e0d3a1-0c73-4748-8931-853d25d1ab1f",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "N3tdNUmULK37",
+      "title": "What is your name?",
+      "ref": "0be2e923-5c82-4f00-8535-d2c654144c41",
+      "validations": {
+        "required": false
+      },
+      "type": "short_text"
+    },
+    {
+      "id": "sRrR4q9CHEKa",
+      "title": "What is your phone number? (Press ok to skip)",
+      "ref": "d6f16fb2-8660-4c53-a44a-bd6c875d529d",
+      "properties": {
+        "default_country_code": "us"
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "phone_number"
+    },
+    {
+      "id": "DYvc1KZ8PfCc",
+      "title": "What is your email address?",
+      "ref": "49176666-0160-48b8-b284-15ce88576949",
+      "validations": {
+        "required": false
+      },
+      "type": "email"
+    }
+  ],
+  "logic": [
+    {
+      "type": "field",
+      "ref": "18c76bd5-98d8-44a2-b8b5-a788a71dbb68",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "bd5dd860-2c0a-43de-af14-5a54610a5751"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "18c76bd5-98d8-44a2-b8b5-a788a71dbb68"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "8a147bf7-7f87-4ab8-afab-44e67c244c48"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "3ab83df2-b500-46b0-b667-5baf3aa2aaac",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "628ab6ac-8822-4e54-8f5d-4333c534866c"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "a2fcda2d-8f1f-46e8-bc0c-c5a8b27767d4",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "06dcfc96-4eb5-4aef-bbac-cebdcfa32bbc"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "974f5f98-4eb2-4f8b-be15-660d45edcfed",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "06dcfc96-4eb5-4aef-bbac-cebdcfa32bbc"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "a05512dc-4028-4dea-baee-9c7283828b1c",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "5724c7c5-40ff-4d8b-b7d7-a6bf7ae7b159"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "ccb37f82-9a5d-43b0-9a75-fd2b1172157f",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "b1e0d3a1-0c73-4748-8931-853d25d1ab1f"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "06dcfc96-4eb5-4aef-bbac-cebdcfa32bbc",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "eb7046aa-5be8-4d5c-9ec5-a5a9c0e23f35"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "06dcfc96-4eb5-4aef-bbac-cebdcfa32bbc"
+              },
+              {
+                "type": "constant",
+                "value": false
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "1505cf03-b27e-4bda-ae26-98db30554337"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "628ab6ac-8822-4e54-8f5d-4333c534866c",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "748889c8-1149-4186-9904-5a26984a162b"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "628ab6ac-8822-4e54-8f5d-4333c534866c"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "51c4f3d0-1c48-4681-a9e8-e98f2f2a4fac"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "f354c88c-8c46-407d-a896-20821d66812d",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "993a60dc-e1a1-4167-902f-51461bc7b8a5"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "f354c88c-8c46-407d-a896-20821d66812d"
+              },
+              {
+                "type": "choice",
+                "value": "82d9e8b2-f2c4-46fe-a19b-4bb08cb954b7"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "1505cf03-b27e-4bda-ae26-98db30554337"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "51c4f3d0-1c48-4681-a9e8-e98f2f2a4fac",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "26a1e46b-1ea0-4394-a542-47678d0351dc"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "51c4f3d0-1c48-4681-a9e8-e98f2f2a4fac"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "b1ea2d19-e95b-44fa-b35d-0747c4536dc7"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "6b9e987a-48c7-4f1d-ab40-22c0e7b042b2",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "da2a96c7-898e-4787-8a66-2a75463206ff"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "6b9e987a-48c7-4f1d-ab40-22c0e7b042b2"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "fa449ca8-9e61-45fd-9606-4253afde5682"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "ee7ca4a1-6f1e-4b7f-a544-f65bd90d71b5",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "bcd0e079-edd4-404c-8f53-173a684ea65c"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "ee7ca4a1-6f1e-4b7f-a544-f65bd90d71b5"
+              },
+              {
+                "type": "constant",
+                "value": false
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "b1d34a2d-b60b-4949-897a-b20107e638ed"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "5b1948d0-3f43-4d1c-a112-1cbc62e09591",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "a05512dc-4028-4dea-baee-9c7283828b1c"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "5b1948d0-3f43-4d1c-a112-1cbc62e09591"
+              },
+              {
+                "type": "constant",
+                "value": false
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "5724c7c5-40ff-4d8b-b7d7-a6bf7ae7b159"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "7f56d93c-2121-4b86-b335-9f1edb339017",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "70c7eb65-f7db-47b4-bea9-3a14326d444f"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "7f56d93c-2121-4b86-b335-9f1edb339017"
+              },
+              {
+                "type": "constant",
+                "value": false
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "78a619b4-f383-48f3-a26e-dd8d94b8df9a"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "70c7eb65-f7db-47b4-bea9-3a14326d444f",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "ee7ca4a1-6f1e-4b7f-a544-f65bd90d71b5"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "70c7eb65-f7db-47b4-bea9-3a14326d444f"
+              },
+              {
+                "type": "constant",
+                "value": false
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "5ba004c1-ceed-4000-8082-8905c3dcbad2"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "b1d34a2d-b60b-4949-897a-b20107e638ed",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "5ba004c1-ceed-4000-8082-8905c3dcbad2"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "eb7046aa-5be8-4d5c-9ec5-a5a9c0e23f35",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "1505cf03-b27e-4bda-ae26-98db30554337"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "49176666-0160-48b8-b284-15ce88576949",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "c5a453fc-56a0-4965-b337-1053fc27b811"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "83888efa-0beb-4114-93ed-883537078bf4",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "974f5f98-4eb2-4f8b-be15-660d45edcfed"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "83888efa-0beb-4114-93ed-883537078bf4"
+                  },
+                  {
+                    "type": "constant",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "3b4add4d-3a22-4aa0-b9e7-ce4d34192f62"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "9b4e8b86-dcaa-4806-92ef-fdc3a3d23365"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "a2fcda2d-8f1f-46e8-bc0c-c5a8b27767d4"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "83888efa-0beb-4114-93ed-883537078bf4"
+                  },
+                  {
+                    "type": "constant",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "3b4add4d-3a22-4aa0-b9e7-ce4d34192f62"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "d0c1c2cc-5467-4f59-89f2-3ad1976a2f75"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "06dcfc96-4eb5-4aef-bbac-cebdcfa32bbc"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "fa449ca8-9e61-45fd-9606-4253afde5682",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "ccb37f82-9a5d-43b0-9a75-fd2b1172157f"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "fa449ca8-9e61-45fd-9606-4253afde5682"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "b1e0d3a1-0c73-4748-8931-853d25d1ab1f"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "3b4add4d-3a22-4aa0-b9e7-ce4d34192f62",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "a40913cf-b64e-42c6-a459-053fd2903302"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "3b4add4d-3a22-4aa0-b9e7-ce4d34192f62"
+              },
+              {
+                "type": "choice",
+                "value": "f58aa9e7-a354-4bcc-9ebc-6812023bf63a"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "f354c88c-8c46-407d-a896-20821d66812d"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "b1ea2d19-e95b-44fa-b35d-0747c4536dc7",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "18c76bd5-98d8-44a2-b8b5-a788a71dbb68"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "b1ea2d19-e95b-44fa-b35d-0747c4536dc7"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "6b9e987a-48c7-4f1d-ab40-22c0e7b042b2"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "b1e0d3a1-0c73-4748-8931-853d25d1ab1f",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "0be2e923-5c82-4f00-8535-d2c654144c41"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "b1e0d3a1-0c73-4748-8931-853d25d1ab1f"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "c5a453fc-56a0-4965-b337-1053fc27b811"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "caedfd9f-4981-434b-822d-eef3423d7000",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "89204af7-7b46-4048-9324-90b17f24f4b4"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "caedfd9f-4981-434b-822d-eef3423d7000"
+              },
+              {
+                "type": "constant",
+                "value": false
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "83888efa-0beb-4114-93ed-883537078bf4"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "5ba004c1-ceed-4000-8082-8905c3dcbad2",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "78a619b4-f383-48f3-a26e-dd8d94b8df9a"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "bd5dd860-2c0a-43de-af14-5a54610a5751",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "6b9e987a-48c7-4f1d-ab40-22c0e7b042b2"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "display": "https://sheltertech.typeform.com/to/NVgI4C"
+  }
+}

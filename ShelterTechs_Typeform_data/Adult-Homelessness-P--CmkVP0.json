@@ -1,0 +1,728 @@
+{
+  "id": "CmkVP0",
+  "title": "Adult Homelessness Pathway",
+  "theme": {
+    "href": "https://api.typeform.com/themes/6lPNE6"
+  },
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/AvwbFz"
+  },
+  "settings": {
+    "is_public": true,
+    "is_trial": false,
+    "language": "en",
+    "progress_bar": "percentage",
+    "show_progress_bar": true,
+    "show_typeform_branding": false,
+    "meta": {
+      "allow_indexing": false
+    },
+    "redirect_after_submit_url": "https://sfserviceguide.org/"
+  },
+  "welcome_screens": [
+    {
+      "ref": "50904b3b-fe7a-45ad-bfcc-16c57f96e5d6",
+      "title": "Hello, welcome to Sheltertech's guide to resources for adult homelessness. Our goal is to help you find the resources that you need. \n\nTo do that, we'll have to ask a few questions to see what resources you are eligible for. We will not ask for any personal information like name or phone number, and all responses will remain confidential.",
+      "properties": {
+        "show_button": true,
+        "button_text": "Start"
+      }
+    }
+  ],
+  "thankyou_screens": [
+    {
+      "ref": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd",
+      "title": "Thank you! If you want more resources access our SF Service Guide resource database HERE.",
+      "properties": {
+        "show_button": true,
+        "share_icons": true,
+        "button_mode": "reload",
+        "button_text": "again"
+      }
+    },
+    {
+      "ref": "default_tys",
+      "title": "Done! Your information was sent perfectly.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "I239ivb9cgkA",
+      "title": "The resources available to you depend on your age. To point you towards the right resources, we need to have an idea of how old you are. Are you 25 or older?",
+      "ref": "8fddd733-f171-4da7-a652-414847e30ddc",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "pCa0xw3eeNSs",
+            "ref": "aa6d169c-551f-49c1-8f5c-98c78b77b05f",
+            "label": "I am 25 years old or older"
+          },
+          {
+            "id": "NoPcmbjyk4Jt",
+            "ref": "8c440d75-82a3-449b-b5b9-414eae108e66",
+            "label": "I am under the age of 25"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "JDfKCE8gYTOJ",
+      "title": "The resources available for transitional aged youth (18-24) and youth (18 and younger) are different than those for adults. The resources best suited to your needs can be found in our Youth Homelessness Resource Guide, which can be found here [link]\n",
+      "ref": "8c14b0a8-c758-4414-b904-7142641dcb29",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "lzklf1dzQc0q",
+      "title": "Are you seeking resources for just yourself, or you family as well? You are eligible for family resources if you have a minor in your care.",
+      "ref": "88f26cf0-1f31-44ae-8e86-131e9315f15b",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "LX6QQjdX88YW",
+            "ref": "0558dbc6-f788-4750-9dc7-e16226f040e4",
+            "label": "I am a single adult seeking resources for myself"
+          },
+          {
+            "id": "f6q3EqvrZsof",
+            "ref": "058dbdaa-17b2-4c49-bb92-039def344a77",
+            "label": "I am seeking resources for my family in addition to myself."
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "msBffHy2QNyf",
+      "title": "The resources available for families are different than those for single adults. The resources best suited to your needs can be found in our Family Homelessness Resource Guide, which can be found here [link]\n",
+      "ref": "7e8f91b7-b859-4c5b-a6e5-d0ea9bd9963a",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "rH4jYDTtyzaQ",
+      "title": "What best describes your current shelter situation?",
+      "ref": "20a9360f-de1f-46b0-b7ef-8b3d73751345",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "p9mN7NyVg6vp",
+            "ref": "75120405-2edb-4fa5-9267-9db1fc76562c",
+            "label": "I need immediate shelter tonight or within the next week"
+          },
+          {
+            "id": "RncL9Fxg4FEr",
+            "ref": "369ee317-a666-4b8d-8442-b8980901aee4",
+            "label": "I am currently at a shelter or some other form of temporary housing"
+          },
+          {
+            "id": "FryzT9ESCC39",
+            "ref": "d4cd369c-6f56-4c83-8217-ca5d8eb3635d",
+            "label": "I am currently housed but am at-risk of homelessness"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "lElXHl3AP3mo",
+      "title": "Are you seeking relief from domestic violence? There are additional shelters and resources for those seeking relief from domestic violence",
+      "ref": "d12383fd-1b59-4dcf-ae48-50de177fe94c",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "bjjmvtQUJJYC",
+            "ref": "d3939deb-5a26-4f8c-8874-8df754fc0239",
+            "label": "Yes, I'd like to see shelters for domestic abuse survivors"
+          },
+          {
+            "id": "Y5VZiRczUcgX",
+            "ref": "2ea71355-673c-41c3-9013-4c3b7fe4295a",
+            "label": "No, I would not like to see those shelters"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "tEfuML49XVLr",
+      "title": "Here are a few shelters for domestic abuse survivors. Depending on your needs, some shelters may be a better match than others\n \n*Rosalie House*\nOFFICE: 1175 HOWARD ST. (at 8th St.). \n415-255-0165.\n_For all domestic violence survivors._ \nCall M–F 9am-5pm for shelter. Stay up to 12 weeks. . \nAskDarcel: https://askdarcel.org/services/194\n\n*Asian Women’s Shelter* \nCall 24 hrs 415-751-0880 or toll-free 877-751-0880 for screening (M-F 9-5) or Human Trafficking Hotline. \n_Priority to women & transgendered survivors of human trafficking or domestic violence, with limited resources, & their kids. If eligible, stay up to 3 mos._ \nAskDarcel Link: https://askdarcel.org/organizations/213\n\n*La Casa de las Madres.*\nOFFICE: 1269 HOWARD (bet. 8 and 9th St). \n24-hr toll-free crisis lines: 877-503-1850; teen crisis 877-923-0700; text line 415-200-3575. \n_Shelter for women and children_\nVictims and survivors of domestic violence call for confidentially-located shelter with counseling, house meetings, 3 meals daily, & chores; stay 1 night to 8 weeks. \nSupport groups & counseling for non-residents. \nAskDarcel Link: https://askdarcel.org/organizations/32\"",
+      "ref": "6b7ea64c-4cc2-4370-83c1-6070749de9d2",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "V353EtpTsCtl",
+      "title": "If the previous resources are not able to meet your housing needs, there are additional resources available for immediate shelter.\n\nFor one-night reservations, visit or contact one of the following Reservation or Resource Centers, or call 311 for assistance in finding emergency shelter as soon as possible\n\nRESERVATION CENTERS:\n*Glide*\n330 Ellis Street\n415-674-6000\n\n*MSC South*\n525 5th Street\n415-597-7960\n\nRESOURCE CENTERS:\n*Mission Neighborhood Resource Center (MNRC)* \n165 Capp Street\n415-869-7977\n\n*United Council of Human Services*\n2111 Jennings Street\n415-671-1100\n\nFor 90-day reservations, call 311 (or 415-701-2311 if you are calling from an area outside of SF) to join the a shelter waitlist OR for assistance with joining the 311 Waitlist, visit one of the above Reservation or Resource Centers.\n",
+      "ref": "5df220b2-a2c7-4b2f-91fd-78e24132498a",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "Lxrdl10Sz8JU",
+      "title": "For one-night reservations, visit or contact one of the following Reservation or Resource Centers, or call 311 for assistance in finding emergency shelter as soon as possible\n\nRESERVATION CENTERS:\n*Glide*\n330 Ellis Street\n415-674-6000\n\n*MSC South*\n525 5th Street\n415-597-7960\n\nRESOURCE CENTERS:\n*Mission Neighborhood Resource Center (MNRC)* \n165 Capp Street\n415-869-7977\n\n*United Council of Human Services*\n2111 Jennings Street\n415-671-1100\n\nFor 90-day reservations, call 311 (or 415-701-2311 if you are calling from an area outside of SF) to join the a shelter waitlist OR for assistance with joining the 311 Waitlist, visit one of the above Reservation or Resource Centers.",
+      "ref": "94cd39f7-7d1b-4b11-b4f3-c08c3b8c1376",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "POl0B2ZnFPdb",
+      "title": "Would you like to see some additional resources beyond immediate shelter?",
+      "ref": "6b4497da-fb94-4d01-af06-62483e9840ef",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "BY7evIMy6q1Q",
+            "ref": "528798fc-fd08-454f-9a19-c9cd232341a3",
+            "label": "Sure"
+          },
+          {
+            "id": "l2KvZFY8D8Aj",
+            "ref": "7da8857a-792a-4688-9bd6-07f95f211a67",
+            "label": "No Thanks"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "U7uBg9UlO5Tq",
+      "title": "If you're a veteran, there are additional services and resources available to you. Are you a veteran?",
+      "ref": "d2431ecc-6498-4fa6-abc9-e0180bd4c5d5",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "tJJLjO4yczlt",
+            "ref": "15ec5720-e302-44cd-b0b5-71752595fcf8",
+            "label": "Yes, I am a veteran"
+          },
+          {
+            "id": "eVTuale3RqnX",
+            "ref": "9d27b8b8-b7d5-4c30-aedf-6037b3bd7437",
+            "label": "No, I am not a veteran"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "ISvSS1meMKid",
+      "title": "To become eligible for supportive housing, adults must be assessed through Coordinated Entry. Current Access Points for assessments:  \n\nUnited Council of Human Services\n2111 Jennings St. (at Van Dyke)\nSan Francisco, CA 94124\" [INSERT DATABASE LINK]\n\nEpiscopal Community Services\n123 10th St. (at Mission)\nSan Francisco, CA 94103\" [INSERT DATABASE LINK]       ",
+      "ref": "88403954-8e2b-4d77-bb12-a4284e6bde63",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "O0DPMTlI6PF5",
+      "title": "To become eligible for supportive housing, adults must be assessed through Coordinated Entry. Current Access Points for assessments:  \n\n\"United Council of Human Services\n2111 Jennings St. (at Van Dyke)\nSan Francisco, CA 94124\" [INSERT DATABASE LINK]\n\n\"Episcopal Community Services\n123 10th St. (at Mission)\nSan Francisco, CA 94103\" [INSERT DATABASE LINK]  \n\n--------------------------------------------------------\n\nBecause you mentioned you are veteran, you are eligible for additional services. Depending on your needs, we suggest contacting the following resources.\n\nSwords to Plowshares\nFamily & Housing Services, Employment & Training, Legal Services, Income Support\n1060 Howard Street, San Francisco, \nCA 94103415-252-4788\n\nVeterans Administration Downtown Clinic\nHealth Care\n401 3rd Street, San Francisco, CA 94107\n415-281-5100 (National Hotline: 1-877-424-3838)",
+      "ref": "da6abebb-455c-4f91-8281-70f4293823e1",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    }
+  ],
+  "logic": [
+    {
+      "type": "field",
+      "ref": "20a9360f-de1f-46b0-b7ef-8b3d73751345",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "d12383fd-1b59-4dcf-ae48-50de177fe94c"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "20a9360f-de1f-46b0-b7ef-8b3d73751345"
+              },
+              {
+                "type": "choice",
+                "value": "75120405-2edb-4fa5-9267-9db1fc76562c"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "d2431ecc-6498-4fa6-abc9-e0180bd4c5d5"
+            }
+          },
+          "condition": {
+            "op": "or",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "20a9360f-de1f-46b0-b7ef-8b3d73751345"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "369ee317-a666-4b8d-8442-b8980901aee4"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "20a9360f-de1f-46b0-b7ef-8b3d73751345"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "d4cd369c-6f56-4c83-8217-ca5d8eb3635d"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "7e8f91b7-b859-4c5b-a6e5-d0ea9bd9963a",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "da6abebb-455c-4f91-8281-70f4293823e1",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "8c14b0a8-c758-4414-b904-7142641dcb29",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "88403954-8e2b-4d77-bb12-a4284e6bde63",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "6b7ea64c-4cc2-4370-83c1-6070749de9d2",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "5df220b2-a2c7-4b2f-91fd-78e24132498a"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "6b4497da-fb94-4d01-af06-62483e9840ef",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "d2431ecc-6498-4fa6-abc9-e0180bd4c5d5"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "6b4497da-fb94-4d01-af06-62483e9840ef"
+              },
+              {
+                "type": "choice",
+                "value": "528798fc-fd08-454f-9a19-c9cd232341a3"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "6b4497da-fb94-4d01-af06-62483e9840ef"
+              },
+              {
+                "type": "choice",
+                "value": "7da8857a-792a-4688-9bd6-07f95f211a67"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "5df220b2-a2c7-4b2f-91fd-78e24132498a",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "d12383fd-1b59-4dcf-ae48-50de177fe94c",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "6b7ea64c-4cc2-4370-83c1-6070749de9d2"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "d12383fd-1b59-4dcf-ae48-50de177fe94c"
+              },
+              {
+                "type": "choice",
+                "value": "d3939deb-5a26-4f8c-8874-8df754fc0239"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "94cd39f7-7d1b-4b11-b4f3-c08c3b8c1376"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "d12383fd-1b59-4dcf-ae48-50de177fe94c"
+              },
+              {
+                "type": "choice",
+                "value": "2ea71355-673c-41c3-9013-4c3b7fe4295a"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "d2431ecc-6498-4fa6-abc9-e0180bd4c5d5",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "88403954-8e2b-4d77-bb12-a4284e6bde63"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "d2431ecc-6498-4fa6-abc9-e0180bd4c5d5"
+              },
+              {
+                "type": "choice",
+                "value": "9d27b8b8-b7d5-4c30-aedf-6037b3bd7437"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "da6abebb-455c-4f91-8281-70f4293823e1"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "d2431ecc-6498-4fa6-abc9-e0180bd4c5d5"
+              },
+              {
+                "type": "choice",
+                "value": "15ec5720-e302-44cd-b0b5-71752595fcf8"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "8fddd733-f171-4da7-a652-414847e30ddc",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "88f26cf0-1f31-44ae-8e86-131e9315f15b"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "8fddd733-f171-4da7-a652-414847e30ddc"
+              },
+              {
+                "type": "choice",
+                "value": "aa6d169c-551f-49c1-8f5c-98c78b77b05f"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "8c14b0a8-c758-4414-b904-7142641dcb29"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "8fddd733-f171-4da7-a652-414847e30ddc"
+              },
+              {
+                "type": "choice",
+                "value": "8c440d75-82a3-449b-b5b9-414eae108e66"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "88f26cf0-1f31-44ae-8e86-131e9315f15b",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "20a9360f-de1f-46b0-b7ef-8b3d73751345"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "88f26cf0-1f31-44ae-8e86-131e9315f15b"
+              },
+              {
+                "type": "choice",
+                "value": "0558dbc6-f788-4750-9dc7-e16226f040e4"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "7e8f91b7-b859-4c5b-a6e5-d0ea9bd9963a"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "88f26cf0-1f31-44ae-8e86-131e9315f15b"
+              },
+              {
+                "type": "choice",
+                "value": "058dbdaa-17b2-4c49-bb92-039def344a77"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "display": "https://sheltertech.typeform.com/to/CmkVP0"
+  }
+}

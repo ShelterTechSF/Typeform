@@ -1,0 +1,103 @@
+{
+  "id": "DQQQCf",
+  "title": "Registration Form (Remote Vetters)",
+  "theme": {
+    "href": "https://api.typeform.com/themes/SYQhDk"
+  },
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/tmqYJc"
+  },
+  "settings": {
+    "is_public": true,
+    "is_trial": false,
+    "language": "en",
+    "progress_bar": "proportion",
+    "show_progress_bar": true,
+    "show_typeform_branding": false,
+    "meta": {
+      "allow_indexing": true
+    },
+    "redirect_after_submit_url": "https://airtable.com/shrbuMRZ40y3mCvPA"
+  },
+  "welcome_screens": [
+    {
+      "ref": "9fce29705f37e76f",
+      "title": "We're on our way to vetting",
+      "properties": {
+        "show_button": true,
+        "button_text": "Get started"
+      },
+      "attachment": {
+        "type": "image",
+        "href": "https://images.typeform.com/images/S72UEHeb9m"
+      }
+    }
+  ],
+  "thankyou_screens": [
+    {
+      "ref": "default_tys",
+      "title": "Done! Your information was sent perfectly.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "eo6sAka2v1xM",
+      "title": "Let's start with your* first name.*",
+      "ref": "853bda6d3ef01305",
+      "validations": {
+        "required": true
+      },
+      "type": "short_text"
+    },
+    {
+      "id": "T5JbeA5CmqfP",
+      "title": "And your *last name*?",
+      "ref": "f7dc079a43192c72",
+      "validations": {
+        "required": true
+      },
+      "type": "short_text"
+    },
+    {
+      "id": "V075wpZLh8au",
+      "title": "What *email address* can we reach you at? This is only to get in touch, not to send spam.",
+      "ref": "367c2c9402abde09",
+      "properties": {
+        "description": "We love GDPR, and GDPR loves us."
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "email"
+    },
+    {
+      "id": "khPNz6nXMcl9",
+      "title": "*Phone number*? Again, only to get in touch, not to send spam.",
+      "ref": "91005d05-27c0-482f-9d59-b9153163717f",
+      "properties": {
+        "description": "GDPR, GPRD and GDPR.",
+        "default_country_code": "us"
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "phone_number"
+    },
+    {
+      "id": "R2kT8CCHhkIT",
+      "title": "Lastly, {{field:853bda6d3ef01305}}, what *Username* would you like to go by?",
+      "ref": "ea284bdf6b9651f5",
+      "validations": {
+        "required": true
+      },
+      "type": "short_text"
+    }
+  ],
+  "_links": {
+    "display": "https://sheltertech.typeform.com/to/DQQQCf"
+  }
+}

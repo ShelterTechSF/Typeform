@@ -1,0 +1,1984 @@
+{
+  "id": "ehf6oj",
+  "title": "Affordable Housing Pathway (backup)",
+  "theme": {
+    "href": "https://api.typeform.com/themes/ddwjWd"
+  },
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/Neqqfb"
+  },
+  "settings": {
+    "is_public": true,
+    "is_trial": false,
+    "language": "en",
+    "progress_bar": "percentage",
+    "show_progress_bar": true,
+    "show_typeform_branding": false,
+    "meta": {
+      "allow_indexing": false
+    }
+  },
+  "welcome_screens": [
+    {
+      "ref": "8196c241-9c37-4e84-b873-7e1408090207",
+      "title": "Hello, welcome to SF Service Guide's resource guide for *Affordable Housing*. Our goal is to help you find the resources that you need.\n\nTo do that, we'll have to ask a few questions to see what resources you are eligible for. We will not ask for any personal information like name or phone number, and all responses will remain confidential.\n",
+      "properties": {
+        "show_button": true,
+        "button_text": "Start"
+      }
+    }
+  ],
+  "thankyou_screens": [
+    {
+      "ref": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd",
+      "title": "Thank you for using the Affordable Housing guide.\n\nIf you would like additional resources, please check out our SF Service Guide*.*",
+      "properties": {
+        "show_button": true,
+        "share_icons": false,
+        "button_mode": "redirect",
+        "button_text": "Go to SF Service Guide",
+        "redirect_url": "https://sfserviceguide.org"
+      }
+    },
+    {
+      "ref": "aba38117-0c19-4ec9-9905-9f209673a545",
+      "title": "We recommend you look at our Homelessness Resource Guides for Adults, Families, and Youth to find the best resources to address your current situation.  ",
+      "properties": {
+        "show_button": true,
+        "share_icons": false,
+        "button_mode": "reload",
+        "button_text": "Go to SF Service Guide"
+      }
+    },
+    {
+      "ref": "e6c536c5-04a4-46ac-9d90-d53acc9b7712",
+      "title": "We recommend you look at our Eviction Prevention guide to find the best resources to address your current situation.  ",
+      "properties": {
+        "show_button": true,
+        "share_icons": false,
+        "button_mode": "redirect",
+        "button_text": "Go to SF Service Guide",
+        "redirect_url": "https://sfserviceguide.org"
+      }
+    },
+    {
+      "ref": "default_tys",
+      "title": "Done! Your information was sent perfectly.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "QgycrY7wN4BZ",
+      "title": "Are you currently experiencing homelessness or in need of shelter this week?",
+      "ref": "3abec5a4-dd47-413a-8431-7c88d90b73c5",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "PqkcEGhj1CqH",
+            "ref": "feb939e0-ab60-44b6-aba8-7951304b86bf",
+            "label": "Yes"
+          },
+          {
+            "id": "SJjUJ6SQLj8X",
+            "ref": "7057a8e0-c422-4bdb-ba0d-594a7af4c4ae",
+            "label": "No"
+          },
+          {
+            "id": "i0SwZWIHo2np",
+            "ref": "9028c02d-02bb-4f8b-ab29-28ba8fdf5226",
+            "label": "I don't know"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "g8Q0sqlHEwml",
+      "title": "Are you currently at risk of eviction or in the process of being evicted?",
+      "ref": "5ad40443-83ca-4f4d-8887-67146a271638",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "lootkVCd2DMH",
+            "ref": "e47188d3-68e3-42a0-9e66-40a27e9e897c",
+            "label": "Yes"
+          },
+          {
+            "id": "ybXoMh6mhE41",
+            "ref": "ceffb2aa-eea6-481f-85c4-f33333354f39",
+            "label": "No"
+          },
+          {
+            "id": "b7SJC9qn3Yvg",
+            "ref": "0f62061e-2123-40a2-987f-48fde05e1b8f",
+            "label": "I don't know"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "WT636RriXdUh",
+      "title": "What kind of affordable housing are you looking for?",
+      "ref": "8a28560c-f7ee-4ab2-8dd4-3b6e6cceaf1c",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "ZJrRib8GlwAY",
+            "ref": "b0536e40-1f68-497f-8b08-c9c8b1891832",
+            "label": "I am looking for assistance renting"
+          },
+          {
+            "id": "lKMMF4rZYDOe",
+            "ref": "0c727b8f-6bce-4c55-842a-5d336b5080f8",
+            "label": "I am looking for assistance buying"
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "tmsVZK8sBYOB",
+      "title": "Do you have any children under the age of 18?",
+      "ref": "2da23693-816e-4c99-8cee-00380586b14f",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "bY34HDjalw1D",
+            "ref": "20cc046c-cc40-4289-9228-4cfe2938f5b9",
+            "label": "Yes"
+          },
+          {
+            "id": "olczVvdzzfLv",
+            "ref": "4c7e6a5b-2b32-49ad-a625-ee17cab4866a",
+            "label": "No"
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "xypD8hdicJ1i",
+      "title": "What type of rental resources are you looking for?",
+      "ref": "adbf58fb-776e-4fae-a614-6da10b86ee40",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": true,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "wCjvmJRXQEjn",
+            "ref": "085fa03d-4eb9-4498-aa82-4553a972b078",
+            "label": "Understand the rental housing process and the resources available"
+          },
+          {
+            "id": "qSMKI7R1zXUa",
+            "ref": "8b73e7f0-d247-447e-a087-e0f57ce02fb8",
+            "label": "Meet one-on-one with an expert to help you on your rental housing search"
+          },
+          {
+            "id": "AtaGRJIyIlxT",
+            "ref": "557b4466-cbda-4e8a-a522-d219af62d944",
+            "label": "Apply for Affordable Rental opportunities directly on your own"
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "OlEzfg0gp6lH",
+      "title": "Here are ShelterTech's best recommendations for you:\n\n*Step 1:* Sign up for Affordable Housing Rental Workshops below:\n\n*HomeownershipSF*\n_Address:_ Depends on the workshop (see link below)\n_Services_: Rental Preparedness Workshops\n_Languages Served_: English and Spanish\n_Find Workshops Here:_ *https://homeownershipsf.org/events/category/workshops/rental-workshops/*\n\n*Step 2:* We also recommend that you create a DAHLIA account if you have not already. DAHLIA will allow you to find affordable rental housing that you might be eligible for. To create an account, follow [*this link*](https://housing.sfgov.org/) to get started. \n\n*Please note:* that there are minimum income requirements for DAHLIA rental listings. You will have a higher chance of qualifying for DAHLIA rental opportunities if you meet one or more of the following lottery preferences [*found here*](https://sfmohcd.org/lottery-preference-programs).\n\n*Step 3:* If you are looking for more resources, in addition to the links above, you can access our SF Service Guide database for Affordable Housing resources by following [*this link*](https://sfserviceguide.org/search?query=rental+workshops).",
+      "ref": "2b4c5032-a261-4835-8696-0e43dbedc828",
+      "properties": {
+        "hide_marks": true,
+        "button_text": "Finish"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "CxrYpmUL0XcB",
+      "title": "Here are ShelterTech's best recommendations for you:\n\n*Step 1:* Sign up for Affordable Housing Rental Workshops below:\n\n*HomeownershipSF*\n_Address:_ Depends on the workshop (see link below)\n_Services_: Rental Preparedness Workshops\n_Languages Served_: English and Spanish\n_Find Workshops Here:_ *https://homeownershipsf.org/events/category/workshops/rental-workshops/*\n\n*Compass Family Services*\n_Address:_ Neighbornest located at 95 Hayes Street, San Francisco.\n_Services:_ Housing Search Workshops, Housing Application Workshops, and Affordable Housing Waitlist Workshops\n_Languages Served:_ English and Spanish\n_Find Upcoming Workshops Here:_ *https://www.compass-sf.org/programs/twitter-neighbornest*\n\n*Step 2:* We also recommend that you create a DAHLIA account if you have not already. DAHLIA will allow you to find affordable rental housing that you might be eligible for. To create an account, follow [*this link*](https://housing.sfgov.org/) to get started.\n\n*Please note:* that there are minimum income requirements for DAHLIA rental listings. You will have a higher chance of qualifying for DAHLIA rental opportunities if you meet one or more of the following lottery preferences [*found here*](https://sfmohcd.org/lottery-preference-programs).\n\n*Step 3:* If you are looking for more resources, in addition to the links above, you can access our SF Service Guide database for Affordable Housing resources by following [*this link*](https://sfserviceguide.org/search?query=family+services).",
+      "ref": "b88cfe7f-92e4-4530-8135-8e75c91ae22d",
+      "properties": {
+        "hide_marks": true,
+        "button_text": "Finish"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "LUqemaAYWv5S",
+      "title": "Here are ShelterTech's best recommendations for you:\n\n*Step 1:* Sign up for some of the clinic options listed below:\n\n*HomeownershipSF*\n_Address:_ Depends on the clinic (see link below)\n_Services_: Assistance apply for city affordable rental units and BMR & DALP ownership\n_Languages Served_: English and Spanish\n_Find Workshops Here:_ *https://homeownershipsf.org/application-assistance-for-renters/*\n\n*Step 2:* We also recommend that you create a DAHLIA account if you have not already. DAHLIA will allow you to find affordable rental housing that you might be eligible for. To create an account, follow [*this link*](https://housing.sfgov.org/) to get started.\n\n*Please note:* that there are minimum income requirements for DAHLIA rental listings. You will have a higher chance of qualifying for DAHLIA rental opportunities if you meet one or more of the following lottery preferences [*found here*](https://sfmohcd.org/lottery-preference-programs).\n\n*Step 3:* If you are looking for more resources, in addition to the links above, you can access our SF Service Guide database for Affordable Housing resources by following [*this link*](https://sfserviceguide.org/search?query=rental+clinics).",
+      "ref": "afe3a630-a4fb-4e66-8d84-317300532d8d",
+      "properties": {
+        "hide_marks": true,
+        "button_text": "Finish"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "SdmO2Zv7kTc4",
+      "title": "Here are ShelterTech's best recommendations for you:\n\n*Step 1:* DAHLIA is a San Francisco Housing Portal sponsored by the SF Mayor's Office that helps you find affordable rental housing. If you don't have an account already, you can follow [*this link*](https://housing.sfgov.org/) to get started. \n\n*Please note:* that there are minimum income requirements for DAHLIA rental listings. You will have a higher chance of qualifying for DAHLIA rental opportunities if you meet one or more of the following lottery preferences [*found here*](https://sfmohcd.org/lottery-preference-programs).\n\n*Step 2:* Make sure you check your email regularly (if you have one) in order to see new housing opportunities. Start your rental housing search here: *https://housing.sfgov.org/listings/for-rent*.\n\n*Step 3:* Check out additional housing resources here: *https://housing.sfgov.org/additional-resources*.\n\n*Step 4:* If you are looking for more resources, in addition to the links above, please follow this link to access our SF Service Guide database for Affordable Housing resources by following [*this link*](https://sfserviceguide.org/search?query=affordable+housing).",
+      "ref": "3acd89cd-ae1f-4568-8a14-a177ae04fafb",
+      "properties": {
+        "hide_marks": true,
+        "button_text": "Finish"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "WHA4nilRo7sR",
+      "title": "Here are ShelterTech's best recommendations for:\n\n*Step 1:* Sign up for Affordable Housing Rental Workshops listed below: \n\n*HomeownershipSF*\n_Address:_ Follow the calendar link below to see the addresses\n_Services_: Rental Preparedness Workshops\n_Languages Served_: English and Spanish\n_Find Workshops Here:_ *https://homeownershipsf.org/events/category/workshops/rental-workshops/*\n\n*Step 2:* Sign up for some of the clinic options listed below:\n\n*HomeownershipSF*\n_Address:_ Follow the calendar link below to see the addresses for clinics\n_Services_: Assistance apply for city affordable rental units and BMR & DALP ownership\n_Languages Served_: English and Spanish\n_Find Workshops Here:_ *https://homeownershipsf.org/application-assistance-for-renters/*\n\n*Step 3:* We also recommend that you create a DAHLIA account if you have not already. DAHLIA will allow you to find affordable rental housing that you might be eligible for. To create an account, follow [*this link*](https://housing.sfgov.org/) to get started.\n\n*Please note:* that there are minimum income requirements for DAHLIA rental listings. You will have a higher chance of qualifying for DAHLIA rental opportunities if you meet one or more of the following lottery preferences [*found here*](https://sfmohcd.org/lottery-preference-programs).\n\n*Step 4:* If you are looking for more resources, in addition to the links above, please follow this link to access our SF Service Guide database for Affordable Housing resources by following [*this link*](https://sfserviceguide.org/search?query=affordable+housing)*.*",
+      "ref": "11b472e9-38d9-47b6-8646-90560fa23dad",
+      "properties": {
+        "hide_marks": true,
+        "button_text": "Finish"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "EY4j2rX2X84U",
+      "title": "Here are ShelterTech's best recommendations for you:\n\n*Step 1:* Sign up for Affordable Housing Rental Workshops listed below: \n\n*HomeownershipSF*\n_Address:_ Follow the calendar link below to see the addresses for workshops\n_Services_: Rental Preparedness Workshops\n_Languages Served_: English and Spanish\n_Find Workshops Here:_ *https://homeownershipsf.org/events/category/workshops/rental-workshops/*\n\n*Compass Family Services*\n_Address:_ Neighbornest located at 95 Hayes Street, San Francisco.\n_Services:_ Housing Search Workshops, Housing Application Workshops, and Affordable Housing Waitlist Workshops\n_Languages Served:_ English and Spanish\n_Find Upcoming Workshops Here:_ *https://www.compass-sf.org/programs/twitter-neighbornest*\n\n*Step 2:* Sign up for some of the clinic options listed below:\n\n*HomeownershipSF*\n_Address:_ Follow the calendar link below to see the addresses\n_Services_: Assistance apply for city affordable rental units and BMR & DALP ownership\n_Languages Served_: English and Spanish\n_Find Workshops Here:_ *https://homeownershipsf.org/application-assistance-for-renters/*\n\n*Step 3:* We also recommend that you create a DAHLIA account if you have not already. DAHLIA will allow you to find affordable rental housing that you might be eligible for. To create an account, follow [*this link*](https://housing.sfgov.org/) to get started. \n\n*Please note:* that there are minimum income requirements for DAHLIA rental listings. You will have a higher chance of qualifying for DAHLIA rental opportunities if you meet one or more of the following lottery preferences [*found here*](https://sfmohcd.org/lottery-preference-programs).\n\n*Step 4:* If you are looking for more resources, in addition to the links above, please follow this link to access our SF Service Guide database for Affordable Housing resources by following [*this link*](https://sfserviceguide.org/search?query=family+services)*.*",
+      "ref": "1cb875b7-52a7-4edd-b14e-b3081f6babce",
+      "properties": {
+        "hide_marks": true,
+        "button_text": "Finish"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "tdqLA6IClljz",
+      "title": "Here are ShelterTech's best recommendations for you:\n\n*Home Buyer Education Requirements Effective August 1, 2019:*\n\nTo apply for a First Time Home buyer program in San Francisco, adult applicants age 18 and older must complete 10 hours of first-time home buyer education and receive their First Time Home Buyer Certificate: \n\n*Step 1:* Complete MOHCD's 2 hour long Home Buyer Program Orientation. You can see a list of upcoming events [*here*](https://homeownershipsf.org/events/category/workshops/home-buyers-orientation/).\n\n*Step 2*: Complete 6 hours of First Time Home Buyer (FTHB) Workshop(s) at one of the five approved agencies (may be taken as series at the SF LGBT Center or online through SFHDC). You can see a list of these in-person workshops [*here*](https://homeownershipsf.org/events/category/workshops/home-buyers-workshops/) and online workshops [*here*](https://www.ehomeamerica.org/sfhdc)*.*\n\n*Step 3:* Attend a 2 hour Individual Counseling Session at the *same* agency as FTHB workshop. You will receive your Buyer Verification form after completing at the end of this counseling session.\n\n*Step 4:* If you are looking for more resources, in addition to the links above, please follow this link to access our SF Service Guide database for Affordable Housing resources by following [*this link*](https://sfserviceguide.org/search?query=affordable+housing).",
+      "ref": "c174427e-143b-4b1a-91d9-701c70e627e0",
+      "properties": {
+        "hide_marks": true,
+        "button_text": "Finish"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "YCKYNsDGsQN3",
+      "title": "What best describes you?",
+      "ref": "20a9360f-de1f-46b0-b7ef-8b3d73751345",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "TpKo8J0WE2a5",
+            "ref": "75120405-2edb-4fa5-9267-9db1fc76562c",
+            "label": "I am an adult and have kids under the age of 18"
+          },
+          {
+            "id": "nFhY9s9SsEWl",
+            "ref": "369ee317-a666-4b8d-8442-b8980901aee4",
+            "label": "I am an adult without kids"
+          },
+          {
+            "id": "ZxAj5qpGTvVy",
+            "ref": "d4cd369c-6f56-4c83-8217-ca5d8eb3635d",
+            "label": "I am under the age of 18"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "nC8Ze6NS0A1w",
+      "title": "Are you a veteran? If so, you may qualify for additional services.",
+      "ref": "f84801f2-6970-40ac-8ac7-46757776fd37",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "mSWdZy9ei3ay",
+            "ref": "bc9d42ea-2067-4257-ab15-0d065dca2210",
+            "label": "Yes, I am a veteran"
+          },
+          {
+            "id": "aEeXvZzbkHDK",
+            "ref": "784d9502-043e-45cd-9206-45092a9a9aa2",
+            "label": "No, I am not a veteran"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "YFAeN15TQ6HL",
+      "title": "Are you looking for resources related to domestic violence?",
+      "ref": "ab0e29ec-2124-4324-88df-6fd429033204",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "x36WBAscxlDW",
+            "ref": "9f3b3965-f973-4905-a5e8-753bd5cb6868",
+            "label": "Yes, I'd like to see resources related to domestic violence."
+          },
+          {
+            "id": "QhGFeh7hZmzf",
+            "ref": "17636a38-2c62-40a0-8e11-41ddd666ca30",
+            "label": "No, I am not looking for resources related to domestic violence."
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "m6yTfatjguZU",
+      "title": "There are multiple resources for those experiencing domestic violence.\n\nRiley Center\r - _All Survivors of Domestic Violence_\nServices for Survivors of Domestic Violence \n24-Hour Support Line: (415) 255-0165\n\nW.O.M.A.N., Inc.\r - _All Survivors of Domestic Violence_\n24-Hour Support Line: (877) 384-3578\n\nAsian Women's Shelter - _All Survivors of Domestic Violence_\n 777-751-0880 \n\n\nLa Casa de las Madres - _Women Only_\n877-503-1850 (phone)\n415-200-3575 (text line)\n",
+      "ref": "13baa9f4-3e7f-4cd5-9e7a-92b6051e0eeb",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "fFXyb0tuZVVO",
+      "title": "Would you like to view additional resources that you are eligible for?* (Note this is a technical workaround question so that we can logic jump to correct access points)*",
+      "ref": "02892328-08fa-46e1-ae9b-702bce0ec73c",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "cuhVWNF12ZXD",
+            "ref": "d53c210a-eebc-4d05-9da9-e2e9809311aa",
+            "label": "Yes, I'd like to see the additional resources I am eligible for"
+          },
+          {
+            "id": "mtDA73m3Z5P6",
+            "ref": "c9b12b48-974e-4af1-85e4-ef33fd1fa7ad",
+            "label": "No, I've found all that I'm looking for"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "SV611nzw0Jg2",
+      "title": "Additional resources are available to veterans. We suggest contacting the following:\n\nSwords to Plowshares:\nHousing Services, Employment & Training, Legal Services, Income Support\n1060 Howard Street, San Francisco, CA 94103415-252-4788\n\nVeterans Administration Downtown Clinic\nHealth Care\n401 3rd Street, San Francisco, CA 94107\n415-281-5100 (National Hotline: 1-877-424-3838)\n\n",
+      "ref": "2dc2f40d-9ea2-4d42-959e-0d2728efd6cd",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "KrdVzw6yPgBL",
+      "title": "To become eligible for supportive housing families must be assessed through Coordinated Entry. Current Access Points for assessments:\n\nService provider for Adult Coordinated Entry: \nCentral City Access Point [INSERT DATABASE LINK]\n\n\"Service provider for Adult Coordinated Entry:\nBayview Access Point\" [INSERT DATABASE LINK]\n\n\"Compass Family Services: 37 Grove St  \n(415) 644-0504\" [INSERT DATABASE LINK]\n\n\"Catholic Charities: 1641 LaSalle Avenue  \n(415) 430-6320\" [INSERT DATABASE LINK]",
+      "ref": "6c473057-057c-4feb-ba3d-5c4efa1f0581",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "sztfdGQqCqKp",
+      "title": "To become eligible for supportive housing, adults must be assessed through Coordinated Entry. Current Access Points for assessments:  \n\n\"United Council of Human Services\n2111 Jennings St. (at Van Dyke)\nSan Francisco, CA 94124\" [INSERT DATABASE LINK]\n\n\"Episcopal Community Services\n123 10th St. (at Mission)\nSan Francisco, CA 94103\" [INSERT DATABASE LINK]       ",
+      "ref": "88403954-8e2b-4d77-bb12-a4284e6bde63",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "jM0gxdYqSbEp",
+      "title": "HSH administers supportive housing  for transitional age youth (18-24) exiting homelessness. All youth must be referred by one of the 13 identified Access Point Agencies in order to submit an application:\n1.        Larkin Street Youth Services\n2.        LYRIC\n3.        Homeless Youth Alliance\n4.        First Place for Youth\n5.        At the Crossroads\n6.        Guardian Scholars (City College)\n7.        Guardian Scholars (SF State)\n8.        Family Children Services (Human Services Agency, SF)\n9.        Huckleberry Youth Programs\n10.        Family Services Agency\n11.        Juvenile Probation\n12.        The Center\n13.        Booker T Washington  \n\n[INSERT DATABASE LINKS ABOVE]        ",
+      "ref": "8c14b0a8-c758-4414-b904-7142641dcb29",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "vRrwmyOcdmQ5",
+      "title": "Was this guide helpful?",
+      "ref": "3b5c9951-96e0-41e5-b0cb-0f289d59950c",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "zDbU1ymeugpG",
+      "title": "Please tell us why you did not find the guide helpful. \n\nIf you're okay with us following up, leave your name and a way that we can contact you.",
+      "ref": "3fe7d0ae-923d-46ce-87b4-6692f612a121",
+      "validations": {
+        "required": false
+      },
+      "type": "short_text"
+    }
+  ],
+  "logic": [
+    {
+      "type": "field",
+      "ref": "adbf58fb-776e-4fae-a614-6da10b86ee40",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "b88cfe7f-92e4-4530-8135-8e75c91ae22d"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "2da23693-816e-4c99-8cee-00380586b14f"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "20cc046c-cc40-4289-9228-4cfe2938f5b9"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "085fa03d-4eb9-4498-aa82-4553a972b078"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "1cb875b7-52a7-4edd-b14e-b3081f6babce"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "2da23693-816e-4c99-8cee-00380586b14f"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "20cc046c-cc40-4289-9228-4cfe2938f5b9"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "085fa03d-4eb9-4498-aa82-4553a972b078"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "8b73e7f0-d247-447e-a087-e0f57ce02fb8"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "557b4466-cbda-4e8a-a522-d219af62d944"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "afe3a630-a4fb-4e66-8d84-317300532d8d"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "2da23693-816e-4c99-8cee-00380586b14f"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "20cc046c-cc40-4289-9228-4cfe2938f5b9"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "8b73e7f0-d247-447e-a087-e0f57ce02fb8"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "557b4466-cbda-4e8a-a522-d219af62d944"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "b88cfe7f-92e4-4530-8135-8e75c91ae22d"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "2da23693-816e-4c99-8cee-00380586b14f"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "20cc046c-cc40-4289-9228-4cfe2938f5b9"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "085fa03d-4eb9-4498-aa82-4553a972b078"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "557b4466-cbda-4e8a-a522-d219af62d944"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "1cb875b7-52a7-4edd-b14e-b3081f6babce"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "2da23693-816e-4c99-8cee-00380586b14f"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "20cc046c-cc40-4289-9228-4cfe2938f5b9"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "085fa03d-4eb9-4498-aa82-4553a972b078"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "8b73e7f0-d247-447e-a087-e0f57ce02fb8"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "afe3a630-a4fb-4e66-8d84-317300532d8d"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "2da23693-816e-4c99-8cee-00380586b14f"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "20cc046c-cc40-4289-9228-4cfe2938f5b9"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "8b73e7f0-d247-447e-a087-e0f57ce02fb8"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "3acd89cd-ae1f-4568-8a14-a177ae04fafb"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "2da23693-816e-4c99-8cee-00380586b14f"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "20cc046c-cc40-4289-9228-4cfe2938f5b9"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "557b4466-cbda-4e8a-a522-d219af62d944"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "2b4c5032-a261-4835-8696-0e43dbedc828"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "2da23693-816e-4c99-8cee-00380586b14f"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "4c7e6a5b-2b32-49ad-a625-ee17cab4866a"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "085fa03d-4eb9-4498-aa82-4553a972b078"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "afe3a630-a4fb-4e66-8d84-317300532d8d"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "2da23693-816e-4c99-8cee-00380586b14f"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "4c7e6a5b-2b32-49ad-a625-ee17cab4866a"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "8b73e7f0-d247-447e-a087-e0f57ce02fb8"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "3acd89cd-ae1f-4568-8a14-a177ae04fafb"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "2da23693-816e-4c99-8cee-00380586b14f"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "4c7e6a5b-2b32-49ad-a625-ee17cab4866a"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "557b4466-cbda-4e8a-a522-d219af62d944"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "11b472e9-38d9-47b6-8646-90560fa23dad"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "2da23693-816e-4c99-8cee-00380586b14f"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "4c7e6a5b-2b32-49ad-a625-ee17cab4866a"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "085fa03d-4eb9-4498-aa82-4553a972b078"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "8b73e7f0-d247-447e-a087-e0f57ce02fb8"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "11b472e9-38d9-47b6-8646-90560fa23dad"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "2da23693-816e-4c99-8cee-00380586b14f"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "4c7e6a5b-2b32-49ad-a625-ee17cab4866a"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "085fa03d-4eb9-4498-aa82-4553a972b078"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "8b73e7f0-d247-447e-a087-e0f57ce02fb8"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "557b4466-cbda-4e8a-a522-d219af62d944"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "afe3a630-a4fb-4e66-8d84-317300532d8d"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "2da23693-816e-4c99-8cee-00380586b14f"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "4c7e6a5b-2b32-49ad-a625-ee17cab4866a"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "8b73e7f0-d247-447e-a087-e0f57ce02fb8"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "557b4466-cbda-4e8a-a522-d219af62d944"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "2b4c5032-a261-4835-8696-0e43dbedc828"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "2da23693-816e-4c99-8cee-00380586b14f"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "4c7e6a5b-2b32-49ad-a625-ee17cab4866a"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "085fa03d-4eb9-4498-aa82-4553a972b078"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "adbf58fb-776e-4fae-a614-6da10b86ee40"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "557b4466-cbda-4e8a-a522-d219af62d944"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "b88cfe7f-92e4-4530-8135-8e75c91ae22d",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "c174427e-143b-4b1a-91d9-701c70e627e0",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "1cb875b7-52a7-4edd-b14e-b3081f6babce",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "11b472e9-38d9-47b6-8646-90560fa23dad",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "8c14b0a8-c758-4414-b904-7142641dcb29",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "3acd89cd-ae1f-4568-8a14-a177ae04fafb",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "afe3a630-a4fb-4e66-8d84-317300532d8d",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "2dc2f40d-9ea2-4d42-959e-0d2728efd6cd",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "ab0e29ec-2124-4324-88df-6fd429033204"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "ab0e29ec-2124-4324-88df-6fd429033204",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "13baa9f4-3e7f-4cd5-9e7a-92b6051e0eeb"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "ab0e29ec-2124-4324-88df-6fd429033204"
+              },
+              {
+                "type": "choice",
+                "value": "9f3b3965-f973-4905-a5e8-753bd5cb6868"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "6c473057-057c-4feb-ba3d-5c4efa1f0581"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "ab0e29ec-2124-4324-88df-6fd429033204"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "17636a38-2c62-40a0-8e11-41ddd666ca30"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "20a9360f-de1f-46b0-b7ef-8b3d73751345"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "75120405-2edb-4fa5-9267-9db1fc76562c"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "88403954-8e2b-4d77-bb12-a4284e6bde63"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "ab0e29ec-2124-4324-88df-6fd429033204"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "17636a38-2c62-40a0-8e11-41ddd666ca30"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "20a9360f-de1f-46b0-b7ef-8b3d73751345"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "369ee317-a666-4b8d-8442-b8980901aee4"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "88403954-8e2b-4d77-bb12-a4284e6bde63"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "8a28560c-f7ee-4ab2-8dd4-3b6e6cceaf1c",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "c174427e-143b-4b1a-91d9-701c70e627e0"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "8a28560c-f7ee-4ab2-8dd4-3b6e6cceaf1c"
+              },
+              {
+                "type": "choice",
+                "value": "0c727b8f-6bce-4c55-842a-5d336b5080f8"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "20a9360f-de1f-46b0-b7ef-8b3d73751345",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "f84801f2-6970-40ac-8ac7-46757776fd37"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "20a9360f-de1f-46b0-b7ef-8b3d73751345"
+              },
+              {
+                "type": "choice",
+                "value": "75120405-2edb-4fa5-9267-9db1fc76562c"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "f84801f2-6970-40ac-8ac7-46757776fd37"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "20a9360f-de1f-46b0-b7ef-8b3d73751345"
+              },
+              {
+                "type": "choice",
+                "value": "369ee317-a666-4b8d-8442-b8980901aee4"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "ab0e29ec-2124-4324-88df-6fd429033204"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "20a9360f-de1f-46b0-b7ef-8b3d73751345"
+              },
+              {
+                "type": "choice",
+                "value": "d4cd369c-6f56-4c83-8217-ca5d8eb3635d"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "3abec5a4-dd47-413a-8431-7c88d90b73c5",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "aba38117-0c19-4ec9-9905-9f209673a545"
+            }
+          },
+          "condition": {
+            "op": "or",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "3abec5a4-dd47-413a-8431-7c88d90b73c5"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "feb939e0-ab60-44b6-aba8-7951304b86bf"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "3abec5a4-dd47-413a-8431-7c88d90b73c5"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "9028c02d-02bb-4f8b-ab29-28ba8fdf5226"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "5ad40443-83ca-4f4d-8887-67146a271638"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "88403954-8e2b-4d77-bb12-a4284e6bde63",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "2b4c5032-a261-4835-8696-0e43dbedc828",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "f84801f2-6970-40ac-8ac7-46757776fd37",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "2dc2f40d-9ea2-4d42-959e-0d2728efd6cd"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "f84801f2-6970-40ac-8ac7-46757776fd37"
+              },
+              {
+                "type": "choice",
+                "value": "bc9d42ea-2067-4257-ab15-0d065dca2210"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "ab0e29ec-2124-4324-88df-6fd429033204"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "3fe7d0ae-923d-46ce-87b4-6692f612a121",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "02892328-08fa-46e1-ae9b-702bce0ec73c",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "6c473057-057c-4feb-ba3d-5c4efa1f0581"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "02892328-08fa-46e1-ae9b-702bce0ec73c"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "d53c210a-eebc-4d05-9da9-e2e9809311aa"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "20a9360f-de1f-46b0-b7ef-8b3d73751345"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "75120405-2edb-4fa5-9267-9db1fc76562c"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "88403954-8e2b-4d77-bb12-a4284e6bde63"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "02892328-08fa-46e1-ae9b-702bce0ec73c"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "d53c210a-eebc-4d05-9da9-e2e9809311aa"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "20a9360f-de1f-46b0-b7ef-8b3d73751345"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "369ee317-a666-4b8d-8442-b8980901aee4"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "8c14b0a8-c758-4414-b904-7142641dcb29"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "02892328-08fa-46e1-ae9b-702bce0ec73c"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "d53c210a-eebc-4d05-9da9-e2e9809311aa"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "20a9360f-de1f-46b0-b7ef-8b3d73751345"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "d4cd369c-6f56-4c83-8217-ca5d8eb3635d"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "3b5c9951-96e0-41e5-b0cb-0f289d59950c",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "3fe7d0ae-923d-46ce-87b4-6692f612a121"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "3b5c9951-96e0-41e5-b0cb-0f289d59950c"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "5ad40443-83ca-4f4d-8887-67146a271638",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "e6c536c5-04a4-46ac-9d90-d53acc9b7712"
+            }
+          },
+          "condition": {
+            "op": "or",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "5ad40443-83ca-4f4d-8887-67146a271638"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "e47188d3-68e3-42a0-9e66-40a27e9e897c"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "5ad40443-83ca-4f4d-8887-67146a271638"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "0f62061e-2123-40a2-987f-48fde05e1b8f"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "8a28560c-f7ee-4ab2-8dd4-3b6e6cceaf1c"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "6c473057-057c-4feb-ba3d-5c4efa1f0581",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f55a11a2-e1be-4bf0-941c-99e82c6f96fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "13baa9f4-3e7f-4cd5-9e7a-92b6051e0eeb",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "02892328-08fa-46e1-ae9b-702bce0ec73c"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "display": "https://sheltertech.typeform.com/to/ehf6oj"
+  }
+}

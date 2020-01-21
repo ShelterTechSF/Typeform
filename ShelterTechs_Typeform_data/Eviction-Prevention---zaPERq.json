@@ -1,0 +1,857 @@
+{
+  "id": "zaPERq",
+  "title": "Eviction Prevention Guide_Final (backup)",
+  "theme": {
+    "href": "https://api.typeform.com/themes/ddwjWd"
+  },
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/xmAH5p"
+  },
+  "settings": {
+    "is_public": true,
+    "is_trial": false,
+    "language": "en",
+    "progress_bar": "percentage",
+    "show_progress_bar": true,
+    "show_typeform_branding": true,
+    "meta": {
+      "allow_indexing": false
+    }
+  },
+  "welcome_screens": [
+    {
+      "ref": "4d06fb63-dd12-4744-8407-2c44e1a2c15c",
+      "title": "Welcome to the Eviction Prevention Guide! \n\nOur goal is to help you find the resources you need right now that will help prevent you from losing your housing.\n\nGet a pen and paper ready, so that you can jot down resources you discover in this guide.",
+      "properties": {
+        "show_button": true,
+        "button_text": "Start"
+      }
+    }
+  ],
+  "thankyou_screens": [
+    {
+      "ref": "303b5807-f72e-4b88-b3d9-b7258613495f",
+      "title": "Since you are unhoused, we recommend you visit the [SF Service Guide](https://sfserviceguide.org/) to find resources for shelters and human services.\n\nIf you are in immediate need of shelter, please call 311 or visit your nearest coordinated entry access point [here](http://hsh.sfgov.org/services/continuum-of-care-adult-coordinated-entry/.).\n\nThank you for using the Eviction Prevention Guide. ",
+      "properties": {
+        "show_button": true,
+        "share_icons": false,
+        "button_mode": "reload",
+        "button_text": "Back to SF Service Guide"
+      }
+    },
+    {
+      "ref": "05ea66eb-14f2-4c00-8063-42959e8a1f5b",
+      "title": "Thank you for using the Eviction Prevention Guide.\n\nPlease visit the [SF Service Guide](https://sfserviceguide.org/) to find more resources for housing and human services.",
+      "properties": {
+        "show_button": true,
+        "share_icons": false,
+        "button_mode": "redirect",
+        "button_text": "Back to SF Service Guide",
+        "redirect_url": "https://sfserviceguide.org"
+      }
+    },
+    {
+      "ref": "default_tys",
+      "title": "Done! Your information was sent perfectly.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "xnH34oH6kxXs",
+      "title": "What's your most recent situation? (Choose one option)",
+      "ref": "0f2d302a-5ccb-43e3-a610-face71a10397",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "G8d2AzjjEnFR",
+            "ref": "169ee0d3-aab4-432d-a516-4243b2589c7e",
+            "label": "I have received something in writing, or a lawsuit, from my landlord about eviction"
+          },
+          {
+            "id": "eE6oQAietury",
+            "ref": "6682dec5-90b5-4db8-be72-9e60d10a91b4",
+            "label": "I have received verbal threats of eviction from my landlord"
+          },
+          {
+            "id": "pziQVDQLIjv2",
+            "ref": "f228d83f-3bdc-465e-b87c-50c83f1603d3",
+            "label": "My landlord has not threatened me with eviction, but I am scared that I will lose my housing in the next 3 months"
+          },
+          {
+            "id": "LV401arbiajC",
+            "ref": "7b8fda1f-4194-45f1-8232-91143ef16efa",
+            "label": "I am unhoused due to an eviction or for another reason"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "thpOnti20CeW",
+      "title": "Choose the most appropriate reason for why you think you may lose your housing:",
+      "ref": "8c9ca651-5e29-4245-9d4e-6e7be73269c5",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "OwkjFux9aRji",
+            "ref": "b96ff64c-de06-46f5-aaf1-1303e1d29e45",
+            "label": "Struggling to pay rent"
+          },
+          {
+            "id": "PeDoF2hQpaBV",
+            "ref": "2cb47413-8643-4d9c-8bb7-ca14b130a805",
+            "label": "Being told that I keep too much stuff in my apartment"
+          },
+          {
+            "id": "b7cINYEt8vA8",
+            "ref": "c6372cff-0bf6-426b-b81b-5e0f79c9aa49",
+            "label": "Not getting along with my neighbors"
+          },
+          {
+            "id": "JUVdxUNNDPhc",
+            "ref": "46225f27-caaa-4ca2-b253-0311ffc61c7a",
+            "label": "Being told that I am too noisy"
+          },
+          {
+            "id": "EjzLp0OCqhkZ",
+            "ref": "22273304-e7a8-48c0-9d19-18b7ed8f8533",
+            "label": "Having arguments with management"
+          },
+          {
+            "id": "y2Hf78LpPhG6",
+            "ref": "5a419381-2c89-4400-b4d7-bee22dbdf49a",
+            "label": "Being told that I bring too many visitors"
+          },
+          {
+            "id": "NtqxUkvISrXB",
+            "ref": "6c16d045-da21-4fa9-8d26-fa2ccecd2cb6",
+            "label": "Other tenants in my building are being evicted or have been pushed out"
+          },
+          {
+            "id": "MuVoPa8foQuq",
+            "ref": "cc7bf418-ff1b-4ee8-b81a-1c8faeb46c49",
+            "label": "Other"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "hiwAkGbFiOtE",
+      "title": "Which situation are you most worried about?",
+      "ref": "8f090a43-961b-41d8-bece-e1aba2f19a50",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "AWOXc3HIwWb4",
+            "ref": "79ea48ec-942c-43df-9ff1-87876dda3eef",
+            "label": "My landlord has asked me to move out temporarily because of repairs"
+          },
+          {
+            "id": "AmK6Qxmjn0Wc",
+            "ref": "aaa69173-82b8-4866-9326-8959054db373",
+            "label": "My landlord has asked me to move out because they or family members are moving into my unit"
+          },
+          {
+            "id": "JhuNQLpXJAe4",
+            "ref": "4bd73a0a-0b55-4b17-aff5-560926d53c6d",
+            "label": "My landlord is not responding to my requests for repairs"
+          },
+          {
+            "id": "sXFYMcd8yRbn",
+            "ref": "9e01e29c-84c9-4a4c-9e14-64044ea82c32",
+            "label": "My landlord told me they are going to sell the unit"
+          },
+          {
+            "id": "u4BX3fkX93wS",
+            "ref": "c7b33473-1029-4758-b810-3e9ff55958f3",
+            "label": "My rent keeps going up"
+          },
+          {
+            "id": "SrOeVJdoc8NQ",
+            "ref": "fdf216b9-efc8-40c8-a019-ff02cb9d3abc",
+            "label": "I live in an SRO"
+          },
+          {
+            "id": "FifodCk3Ltae",
+            "ref": "2a5e7b9a-cfe1-40f8-9132-b5ccec4960fb",
+            "label": "I am living in a domestic violence situation and have received complaints or the police has gotten involved"
+          },
+          {
+            "id": "Lh2f0WUIUQP2",
+            "ref": "d917124b-ff49-467c-8325-933bc4faf233",
+            "label": "Other"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "MfBWXJKk5LSQ",
+      "title": "You should visit the [*Eviction Defense Collaborative (EDC)*](https://sfserviceguide.org/organizations/869) right away. They will help you understand your options and offer City-funded legal and rental assistance. Do not move out until you have spoken to an attorney.\n\nVisit them between 9am – 11am and 1pm – 3pm Monday through Friday, except for Thursday mornings.\n\nTheir address is 1338 Mission St 4th Floor (at 9th St)\n\nPlease call them at 415-947-0797 for more information.\n\nPlease be sure to bring any written communication with your landlord, the notice, your lease, and any other written records associated with your housing. ",
+      "ref": "6b4eb560-cf7d-4a85-a149-b7a1dafe35e5",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "vVgNjpVePUyv",
+      "title": "\nYou should visit the [*SF Tenants Union (SFTU)*](https://sfserviceguide.org/organizations/398) for a drop-in visit right away. They will help you resolve your housing issue through counseling.\n\nTheir address is 558 Capp St (at 21st St)\n\nTheir hours change; the most updated schedule can be found [here](https://www.sftu.org/schedule/). \n\nPlease be sure to: \n1. Fill out the SF Tenants Union intake form [here](https://www.sftu.org/drop-in-clinic/).\n2. Bring a print copy of the confirmation after you submit the form. \nOr, you can fill it out at the clinic.\n3. Bring any written communication with your landlord, your lease, and any other written records associated with your housing.  ",
+      "ref": "ddd4542c-fe8a-4983-af67-826d2e15f1d4",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "Y8600ryUfUkW",
+      "title": "You should contact the *Conflict Intervention Service (CIS)* of the Bar Association of San Francisco.  They will help you work through this issue.  \n\nPlease call the CIS Helpline for a confidential consultation: 415-782-8940.",
+      "ref": "d045115f-9bc5-49b1-9d3d-de6e8eac1b50",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "ZxaZ1UWKEMgS",
+      "title": "You should contact the [*Homeless Advocacy Project (HAP)*](https://sfserviceguide.org/organizations/526) right away. They will help you find legal representation to providing support in resolving this issue. More information can be found [here](http://www.sfbar.org/jdc/legal-services/hap/hap-can-help.aspx).\n\nIf you are a new client, please visit them on Tuesdays from 1pm - 4pm. Please call them at 1-800-405-4427 to confirm that they are open.\n\nTheir address is 125 Hyde St (at Golden Gate Ave)\n\nPlease be sure to bring any written communication with your landlord, your lease, and any other written records associated with your housing. ",
+      "ref": "e425399b-ecb8-40f8-85ad-c4fd97f852f2",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "UhCWK39FgbGt",
+      "title": "You should contact the [*Housing Rights Committee of SF (HRCSF)*](https://sfserviceguide.org/organizations/867). They offer individual counseling and advocacy for addressing building-wide issues.\n\n_*Mission Office*_: 1663 Mission St, Suite 504 (at Plum St). Monday – Thursday (1pm – 5pm). 415-703-8644\n\n_*Richmond Office*_: 4301 Geary Blvd (at 7th Ave). Monday, Wednesday – Friday (9am –  12pm). 415-947-9085\n\nPlease arrive at least 45 minutes before closing, and bring any written communication with your landlord, your lease, and any other written records associated with your housing. ",
+      "ref": "5fd8d34d-6313-4070-9120-c5802287bdbf",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "xjtAO9PbVprZ",
+      "title": "You should visit or contact your local SRO Collaborative. Choose the closest one:\n\n[_*Chinatown SRO Collaborative (CCDC)*_](https://www.chinatowncdc.org/building-community/organizing-and-advocacy/housing-counseling)\nCounseling drop-in hours are available without an appointment at 663 Clay St. (at Kearny St.)\n- every Monday, 2pm-4pm\n- every Thursday, 10:30am-12:30pm\nIf you are unable to attend the housing counseling drop-in hours, appointments can be made by calling 415-984-2728. \n\n[_*Central City SRO Collaborative (THC)*_](https://sfserviceguide.org/organizations/389)\nPlease call 415-775-7110 if you have any tenant landlord issues. \nDrop-in Housing Counseling is every Mondays – Thursdays from 10am-12pm and 2-4pm at 48 Turk St. (at Mason St.)\n\n[_*Mission SRO Collaborative (DSCS):*_ *Causa Justa*](https://cjjc.org/services/servicios-para-inquilinos-de-san-francisco-san-francisco-tenant-services/)\nDrop-in counseling hours are Friday: 1pm - 5pm at 2301 Mission Street, Suite 201 (at 19th St.). Please arrive by 4:30pm to be seen.\nPhone: 415-487-9203",
+      "ref": "1d6c7e05-f34a-4623-a563-51f61d1119e8",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "PsVLJPlw8Kys",
+      "title": "You should contact the *National Domestic Violence Hotline* right away. They will listen without judgement, help you talk through your situation, and suggest next steps.\n\nPlease call *1-800-799-7233*. ",
+      "ref": "8898f7c6-696c-46a8-b04d-6719c2b5ae6a",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "QPUMhih5YjDB",
+      "title": "Was this guide helpful?",
+      "ref": "0b82f28d-ea0e-4c7d-841e-c1dfdd68abd7",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "ychQF9aET4Lh",
+      "title": "Please tell us why you did not find the guide helpful. \n\nIf you're okay with us following up, leave a way that we can contact you.",
+      "ref": "86f6da8c-b3c2-4d5a-b9cd-6d25dcc1bbb9",
+      "validations": {
+        "required": false
+      },
+      "type": "short_text"
+    }
+  ],
+  "logic": [
+    {
+      "type": "field",
+      "ref": "0f2d302a-5ccb-43e3-a610-face71a10397",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "6b4eb560-cf7d-4a85-a149-b7a1dafe35e5"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "0f2d302a-5ccb-43e3-a610-face71a10397"
+              },
+              {
+                "type": "choice",
+                "value": "169ee0d3-aab4-432d-a516-4243b2589c7e"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "ddd4542c-fe8a-4983-af67-826d2e15f1d4"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "0f2d302a-5ccb-43e3-a610-face71a10397"
+              },
+              {
+                "type": "choice",
+                "value": "6682dec5-90b5-4db8-be72-9e60d10a91b4"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "8c9ca651-5e29-4245-9d4e-6e7be73269c5"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "0f2d302a-5ccb-43e3-a610-face71a10397"
+              },
+              {
+                "type": "choice",
+                "value": "f228d83f-3bdc-465e-b87c-50c83f1603d3"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "303b5807-f72e-4b88-b3d9-b7258613495f"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "0f2d302a-5ccb-43e3-a610-face71a10397"
+              },
+              {
+                "type": "choice",
+                "value": "7b8fda1f-4194-45f1-8232-91143ef16efa"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "8f090a43-961b-41d8-bece-e1aba2f19a50"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "8f090a43-961b-41d8-bece-e1aba2f19a50",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "1d6c7e05-f34a-4623-a563-51f61d1119e8"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "8f090a43-961b-41d8-bece-e1aba2f19a50"
+              },
+              {
+                "type": "choice",
+                "value": "fdf216b9-efc8-40c8-a019-ff02cb9d3abc"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "8898f7c6-696c-46a8-b04d-6719c2b5ae6a"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "8f090a43-961b-41d8-bece-e1aba2f19a50"
+              },
+              {
+                "type": "choice",
+                "value": "2a5e7b9a-cfe1-40f8-9132-b5ccec4960fb"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "ddd4542c-fe8a-4983-af67-826d2e15f1d4"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "8f090a43-961b-41d8-bece-e1aba2f19a50"
+              },
+              {
+                "type": "choice",
+                "value": "d917124b-ff49-467c-8325-933bc4faf233"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "5fd8d34d-6313-4070-9120-c5802287bdbf"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "0b82f28d-ea0e-4c7d-841e-c1dfdd68abd7",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "86f6da8c-b3c2-4d5a-b9cd-6d25dcc1bbb9"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "0b82f28d-ea0e-4c7d-841e-c1dfdd68abd7"
+              },
+              {
+                "type": "constant",
+                "value": false
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "05ea66eb-14f2-4c00-8063-42959e8a1f5b"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "8c9ca651-5e29-4245-9d4e-6e7be73269c5",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "6b4eb560-cf7d-4a85-a149-b7a1dafe35e5"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "8c9ca651-5e29-4245-9d4e-6e7be73269c5"
+              },
+              {
+                "type": "choice",
+                "value": "b96ff64c-de06-46f5-aaf1-1303e1d29e45"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "d045115f-9bc5-49b1-9d3d-de6e8eac1b50"
+            }
+          },
+          "condition": {
+            "op": "or",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "8c9ca651-5e29-4245-9d4e-6e7be73269c5"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "2cb47413-8643-4d9c-8bb7-ca14b130a805"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "8c9ca651-5e29-4245-9d4e-6e7be73269c5"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "46225f27-caaa-4ca2-b253-0311ffc61c7a"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "8c9ca651-5e29-4245-9d4e-6e7be73269c5"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "c6372cff-0bf6-426b-b81b-5e0f79c9aa49"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "8c9ca651-5e29-4245-9d4e-6e7be73269c5"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "22273304-e7a8-48c0-9d19-18b7ed8f8533"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "8c9ca651-5e29-4245-9d4e-6e7be73269c5"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "5a419381-2c89-4400-b4d7-bee22dbdf49a"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "5fd8d34d-6313-4070-9120-c5802287bdbf"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "8c9ca651-5e29-4245-9d4e-6e7be73269c5"
+              },
+              {
+                "type": "choice",
+                "value": "6c16d045-da21-4fa9-8d26-fa2ccecd2cb6"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "8f090a43-961b-41d8-bece-e1aba2f19a50"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "8c9ca651-5e29-4245-9d4e-6e7be73269c5"
+              },
+              {
+                "type": "choice",
+                "value": "cc7bf418-ff1b-4ee8-b81a-1c8faeb46c49"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "d045115f-9bc5-49b1-9d3d-de6e8eac1b50"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "8898f7c6-696c-46a8-b04d-6719c2b5ae6a",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "0b82f28d-ea0e-4c7d-841e-c1dfdd68abd7"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "d045115f-9bc5-49b1-9d3d-de6e8eac1b50",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "0b82f28d-ea0e-4c7d-841e-c1dfdd68abd7"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "1d6c7e05-f34a-4623-a563-51f61d1119e8",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "0b82f28d-ea0e-4c7d-841e-c1dfdd68abd7"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "e425399b-ecb8-40f8-85ad-c4fd97f852f2",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "0b82f28d-ea0e-4c7d-841e-c1dfdd68abd7"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "ddd4542c-fe8a-4983-af67-826d2e15f1d4",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "0b82f28d-ea0e-4c7d-841e-c1dfdd68abd7"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "6b4eb560-cf7d-4a85-a149-b7a1dafe35e5",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "0b82f28d-ea0e-4c7d-841e-c1dfdd68abd7"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "5fd8d34d-6313-4070-9120-c5802287bdbf",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "0b82f28d-ea0e-4c7d-841e-c1dfdd68abd7"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "86f6da8c-b3c2-4d5a-b9cd-6d25dcc1bbb9",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "05ea66eb-14f2-4c00-8063-42959e8a1f5b"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "display": "https://sheltertech.typeform.com/to/zaPERq"
+  }
+}

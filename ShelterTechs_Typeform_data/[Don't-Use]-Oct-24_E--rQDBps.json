@@ -1,0 +1,859 @@
+{
+  "id": "rQDBps",
+  "title": "[Don't Use] Oct 24_Eviction Prevention Guide",
+  "theme": {
+    "href": "https://api.typeform.com/themes/6lPNE6"
+  },
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/xmAH5p"
+  },
+  "settings": {
+    "is_public": false,
+    "is_trial": false,
+    "language": "en",
+    "progress_bar": "percentage",
+    "show_progress_bar": true,
+    "show_typeform_branding": true,
+    "meta": {
+      "allow_indexing": false
+    }
+  },
+  "welcome_screens": [
+    {
+      "ref": "4d06fb63-dd12-4744-8407-2c44e1a2c15c",
+      "title": "Welcome to the Eviction Prevention Guide! \n\nGet a pen and paper ready, so you can jot down resources you find here.",
+      "properties": {
+        "show_button": true,
+        "button_text": "Start"
+      }
+    }
+  ],
+  "thankyou_screens": [
+    {
+      "ref": "303b5807-f72e-4b88-b3d9-b7258613495f",
+      "title": "Thank you for using the Eviction Prevention Guide. \nPlease visit the [SF Service Guide](https://sfserviceguide.org/) to find more resources for housing and human services.",
+      "properties": {
+        "show_button": true,
+        "share_icons": true,
+        "button_mode": "reload",
+        "button_text": "again"
+      }
+    },
+    {
+      "ref": "default_tys",
+      "title": "Done! Your information was sent perfectly.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "pc67rhFVx5Oy",
+      "title": "What's your situation like?",
+      "ref": "0f2d302a-5ccb-43e3-a610-face71a10397",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "mTAFyW1v0f8D",
+            "ref": "169ee0d3-aab4-432d-a516-4243b2589c7e",
+            "label": "I am still housed"
+          },
+          {
+            "id": "atroZOkrpuHD",
+            "ref": "7b8fda1f-4194-45f1-8232-91143ef16efa",
+            "label": "I am unhoused due to eviction"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "ql3VczLuud8N",
+      "title": "Do you feel that you may be evicted in the next 3 months? ",
+      "ref": "8c9ca651-5e29-4245-9d4e-6e7be73269c5",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "ux5EezAUjDbP",
+      "title": "Do you have anything in writing from your landlord? ",
+      "ref": "595a5ba9-27d7-43c2-91b4-17291e275735",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "huLNHXmoszMB",
+      "title": "You should contact the *Eviction Defense Collaborative* right away. They will help you with responding to your notice, alongside legal and rental assistance.\n\nPlease call them at *415-947-0797* to schedule an appointment.\n\nVisit them between 9 am – 11 am and 1 pm – 3 pm Monday through Friday, except for Thursday mornings.",
+      "ref": "6b4eb560-cf7d-4a85-a149-b7a1dafe35e5",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "rV10iaEsej1d",
+      "title": "\nYou should contact the *SF Tenants Union* right away. They will help you find a solution within your housing through drop-in counseling.\n\nPlease call them at *415-282-6622* to schedule an appointment; they are available daytime, evening and weekend hours, with the most updated schedule found [here](https://www.sftu.org/schedule/). Arrive by your scheduled time, please!\n\nBefore arriving, please be sure to: \n1. Fill out the SF Tenants Union intake form here, as this will help make your process quicker.\n2. Please bring a print copy of the confirmation after you submit the form. \nHowever, if you can’t fill out the form at home, you can fill it out at the clinic.",
+      "ref": "ddd4542c-fe8a-4983-af67-826d2e15f1d4",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "IZg5wxrk8VzM",
+      "title": "You may also want to contact the *Housing Rights Committee*. They will also help you find a solution within your housing through drop-in counseling.\n\nPlease call them at 415-703-8644 to schedule an appointment Monday, Wednesday-Friday from 9AM-12PM. \n\nDrop in counseling is also available at their office located at 4301 Geary Blvd at 7th Ave, San Francisco, CA 94118.",
+      "ref": "5fd8d34d-6313-4070-9120-c5802287bdbf",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "zzI8LBKkOhf7",
+      "title": "Ok, which of these apply to you? ",
+      "ref": "680350e6-ac9e-465d-8982-f080620950f3",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "ivRu5ivH2E4r",
+            "ref": "0f8ba27f-e651-41d9-a251-99c0b000a56a",
+            "label": "I am a survivor of domestic violence"
+          },
+          {
+            "id": "RIHQhCbOHTBY",
+            "ref": "d94704c5-8f34-40df-b5fb-faf66d4adcb9",
+            "label": "I am HIV/AIDs positive"
+          },
+          {
+            "id": "JXqZ48XEoy12",
+            "ref": "7a1546d4-023d-4da9-8bc8-6c72d4611702",
+            "label": "None of the above"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "viLOlkof6EP0",
+      "title": "You should contact the *National Domestic Violence Hotline* right away. They will listen without judgement, help you talk through your situation, and suggest next steps.\n\nPlease call *1-800-799-7233*. Note: this resource may not be able to refer you to available resources in San Francisco.\n\n--------------\n\nDo you also have HIV/AIDs?",
+      "ref": "26bd5e98-5be5-44df-a552-0208bcc49758",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "EkXFSDufhJWH",
+      "title": "You should contact the *SF AIDS Foundation* right away. They will help with ongoing rental assistance, as well as provide sexual health and testing services.\n\nPlease call *415-487-3000*. You may visit their main office at 1035 Market Street, 4th Floor anytime between 9am-5pm on Mondays to Fridays.",
+      "ref": "2ed9afb3-3100-4ae8-b303-7dad78d7e5f4",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "CDABzW2rZ9Nk",
+      "title": "You should contact the *SF AIDS Foundation* right away. They will help with ongoing rental assistance, as well as provide sexual health and testing services.\n\nPlease call *415-487-3000*. You may visit their main office at 1035 Market Street, 4th Floor anytime between 9am-5pm on Mondays to Fridays.\n\n--------------\n\nAre you also a survivor of domestic violence?",
+      "ref": "068d38c3-4328-4d5d-9021-f82a8d06ec7b",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "CJgtZArwdTjW",
+      "title": "\\*You should contact the *National Domestic Violence Hotline* right away. They will listen without judgement, help you talk through your situation, and suggest next steps.\n\n\\*Please call *1-800-799-7233*. Note: this resource may not be able to refer you to available resources in San Francisco.",
+      "ref": "8898f7c6-696c-46a8-b04d-6719c2b5ae6a",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "I3gDFcxxDnbx",
+      "title": "Now, which of these apply to you? ",
+      "ref": "4bd8b087-0fec-4518-be3b-56f96353c5a0",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "cO3Xq0UbXufZ",
+            "ref": "df25990d-d2c3-41b0-92e0-b8eb9d464f94",
+            "label": "My landlord feels that I am causing a nuisance"
+          },
+          {
+            "id": "SXqUsnNOygt2",
+            "ref": "fee53b76-79c6-4fb9-b42f-53272e0f2337",
+            "label": "I am struggling to pay rent"
+          },
+          {
+            "id": "U6Ahg60cjFhj",
+            "ref": "9460db62-b28e-4076-9d5d-99edd8aff86e",
+            "label": "None of the above"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "eJEj6xoE7hox",
+      "title": "You should contact the* Homeless Advocacy Project* right away. They will help you find legal representation to providing support in resolving this issue. More information can be found [here](http://www.sfbar.org/jdc/legal-services/hap/hap-can-help.aspx).\n\nPlease call them at *1-800-405-4427* on Tuesdays from 1-4PM. \n\n--------------\n\nDo you need rental assistance?",
+      "ref": "aba0a5c2-5f47-40e2-8fcd-bce2ae652574",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "NcN7Oth9GP2r",
+      "title": "\\*You should contact the *Catholic Charities (FEPCO Program)* right away. They provide rental assistance for individuals and families at risk of eviction in San Francisco.\n\n\\*Please call *1-415-972-1200,* Monday through Friday from 8:30AM-4:30PM.\n\n--------------\n\nDoes your landlord also feel that you are causing a nuisance?",
+      "ref": "c9445cc7-f5f3-46f4-b4b9-04974f20a1e9",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "wFJ4VvqAvur4",
+      "title": "\\*You should contact the *Catholic Charities (FEPCO Program)* right away. They provide rental assistance for individuals and families at risk of eviction in San Francisco.\n\n\\*Please call *1-415-972-1200,* Monday through Friday from 8:30AM-4:30PM.",
+      "ref": "62178d67-00ca-4f19-9422-cb7be3770dbf",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "B2bMqRGS1cHa",
+      "title": "You should contact the* Homeless Advocacy Project* right away. They will help you find legal representation to providing support in resolving this issue. More information can be found [here](http://www.sfbar.org/jdc/legal-services/hap/hap-can-help.aspx).\n\nPlease call them at *1-800-405-4427* on Tuesdays from 1-4PM. ",
+      "ref": "d0c47a75-6139-4279-a893-e853debfc961",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    }
+  ],
+  "logic": [
+    {
+      "type": "field",
+      "ref": "8c9ca651-5e29-4245-9d4e-6e7be73269c5",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "595a5ba9-27d7-43c2-91b4-17291e275735"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "8c9ca651-5e29-4245-9d4e-6e7be73269c5"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "680350e6-ac9e-465d-8982-f080620950f3"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "8c9ca651-5e29-4245-9d4e-6e7be73269c5"
+              },
+              {
+                "type": "constant",
+                "value": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "595a5ba9-27d7-43c2-91b4-17291e275735",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "6b4eb560-cf7d-4a85-a149-b7a1dafe35e5"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "595a5ba9-27d7-43c2-91b4-17291e275735"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "ddd4542c-fe8a-4983-af67-826d2e15f1d4"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "595a5ba9-27d7-43c2-91b4-17291e275735"
+              },
+              {
+                "type": "constant",
+                "value": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "c9445cc7-f5f3-46f4-b4b9-04974f20a1e9",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "d0c47a75-6139-4279-a893-e853debfc961"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "c9445cc7-f5f3-46f4-b4b9-04974f20a1e9"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "303b5807-f72e-4b88-b3d9-b7258613495f"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "c9445cc7-f5f3-46f4-b4b9-04974f20a1e9"
+              },
+              {
+                "type": "constant",
+                "value": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "aba0a5c2-5f47-40e2-8fcd-bce2ae652574",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "62178d67-00ca-4f19-9422-cb7be3770dbf"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "aba0a5c2-5f47-40e2-8fcd-bce2ae652574"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "303b5807-f72e-4b88-b3d9-b7258613495f"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "aba0a5c2-5f47-40e2-8fcd-bce2ae652574"
+              },
+              {
+                "type": "constant",
+                "value": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "0f2d302a-5ccb-43e3-a610-face71a10397",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "303b5807-f72e-4b88-b3d9-b7258613495f"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "0f2d302a-5ccb-43e3-a610-face71a10397"
+              },
+              {
+                "type": "choice",
+                "value": "7b8fda1f-4194-45f1-8232-91143ef16efa"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "d0c47a75-6139-4279-a893-e853debfc961",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "303b5807-f72e-4b88-b3d9-b7258613495f"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "680350e6-ac9e-465d-8982-f080620950f3",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "26bd5e98-5be5-44df-a552-0208bcc49758"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "680350e6-ac9e-465d-8982-f080620950f3"
+              },
+              {
+                "type": "choice",
+                "value": "0f8ba27f-e651-41d9-a251-99c0b000a56a"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "068d38c3-4328-4d5d-9021-f82a8d06ec7b"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "680350e6-ac9e-465d-8982-f080620950f3"
+              },
+              {
+                "type": "choice",
+                "value": "d94704c5-8f34-40df-b5fb-faf66d4adcb9"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "4bd8b087-0fec-4518-be3b-56f96353c5a0"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "680350e6-ac9e-465d-8982-f080620950f3"
+              },
+              {
+                "type": "choice",
+                "value": "7a1546d4-023d-4da9-8bc8-6c72d4611702"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "26bd5e98-5be5-44df-a552-0208bcc49758",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "2ed9afb3-3100-4ae8-b303-7dad78d7e5f4"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "26bd5e98-5be5-44df-a552-0208bcc49758"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "4bd8b087-0fec-4518-be3b-56f96353c5a0"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "26bd5e98-5be5-44df-a552-0208bcc49758"
+              },
+              {
+                "type": "constant",
+                "value": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "068d38c3-4328-4d5d-9021-f82a8d06ec7b",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "8898f7c6-696c-46a8-b04d-6719c2b5ae6a"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "068d38c3-4328-4d5d-9021-f82a8d06ec7b"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "4bd8b087-0fec-4518-be3b-56f96353c5a0"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "068d38c3-4328-4d5d-9021-f82a8d06ec7b"
+              },
+              {
+                "type": "constant",
+                "value": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "8898f7c6-696c-46a8-b04d-6719c2b5ae6a",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "4bd8b087-0fec-4518-be3b-56f96353c5a0"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "4bd8b087-0fec-4518-be3b-56f96353c5a0",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "aba0a5c2-5f47-40e2-8fcd-bce2ae652574"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "4bd8b087-0fec-4518-be3b-56f96353c5a0"
+              },
+              {
+                "type": "choice",
+                "value": "df25990d-d2c3-41b0-92e0-b8eb9d464f94"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "c9445cc7-f5f3-46f4-b4b9-04974f20a1e9"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "4bd8b087-0fec-4518-be3b-56f96353c5a0"
+              },
+              {
+                "type": "choice",
+                "value": "fee53b76-79c6-4fb9-b42f-53272e0f2337"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "303b5807-f72e-4b88-b3d9-b7258613495f"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "4bd8b087-0fec-4518-be3b-56f96353c5a0"
+              },
+              {
+                "type": "choice",
+                "value": "9460db62-b28e-4076-9d5d-99edd8aff86e"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "62178d67-00ca-4f19-9422-cb7be3770dbf",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "303b5807-f72e-4b88-b3d9-b7258613495f"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "2ed9afb3-3100-4ae8-b303-7dad78d7e5f4",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "4bd8b087-0fec-4518-be3b-56f96353c5a0"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "5fd8d34d-6313-4070-9120-c5802287bdbf",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "680350e6-ac9e-465d-8982-f080620950f3"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "6b4eb560-cf7d-4a85-a149-b7a1dafe35e5",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "680350e6-ac9e-465d-8982-f080620950f3"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "display": "https://sheltertech.typeform.com/to/rQDBps"
+  }
+}

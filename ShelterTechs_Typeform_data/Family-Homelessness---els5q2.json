@@ -1,0 +1,435 @@
+{
+  "id": "els5q2",
+  "title": "Family Homelessness (backup)",
+  "theme": {
+    "href": "https://api.typeform.com/themes/ddwjWd"
+  },
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/2uJPFC"
+  },
+  "settings": {
+    "is_public": true,
+    "is_trial": false,
+    "language": "en",
+    "progress_bar": "percentage",
+    "show_progress_bar": true,
+    "show_typeform_branding": true,
+    "meta": {
+      "allow_indexing": false
+    },
+    "redirect_after_submit_url": "https://sfserviceguide.org/"
+  },
+  "welcome_screens": [
+    {
+      "ref": "49f17fb9-c0ea-4dcb-ba39-5ad0c7a82836",
+      "title": "Hello, welcome to SF Service Guide's resource guide for *Family Homelessness*. Our goal is to help you find the resources that you need. \n\nTo do that, we'll have to ask a few questions to see what resources you are eligible for. We will not ask for any personal information like name or phone number, and all responses will remain confidential.",
+      "properties": {
+        "show_button": true,
+        "button_text": "Start"
+      }
+    }
+  ],
+  "thankyou_screens": [
+    {
+      "ref": "3b29a21b-614a-4f8f-a5fd-0348a9c55627",
+      "title": "Return to the SF Service Guide to find another pathway or resources more relevant to you.",
+      "properties": {
+        "show_button": true,
+        "share_icons": false,
+        "button_mode": "redirect",
+        "button_text": "Go to SF Service Guide",
+        "redirect_url": "https://sfserviceguide.org"
+      }
+    },
+    {
+      "ref": "a0f698a6-aa1a-43f2-bb73-c2d9905a0289",
+      "title": "We hope you found these resource recommendations valuable.\n\n If you would like additional resources, please check out the SF Service Guide*.* Thank you!",
+      "properties": {
+        "show_button": true,
+        "share_icons": false,
+        "button_mode": "redirect",
+        "button_text": "Go to SF Service Guide",
+        "redirect_url": "https://sfserviceguide.org"
+      }
+    },
+    {
+      "ref": "default_tys",
+      "title": "Done! Your information was sent perfectly.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "NidXtkmjyyxU",
+      "title": "First we need to know a little bit about you to provide the best results",
+      "ref": "6410339f-9453-4cef-97c3-d0c911f229ab",
+      "properties": {
+        "show_button": true,
+        "button_text": "Continue",
+        "fields": [
+          {
+            "id": "tUAWYUC1croD",
+            "title": "If you have a minor in your custody, there are family-specific housing resources for which you qualify. Which of the following applies to you?",
+            "ref": "5fc6d4a2-cd6d-4912-9824-7d774b60d183",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "J9v3IIptX30y",
+                  "ref": "18d28bf0-3729-46fd-87bb-9d4d586d296d",
+                  "label": "Our family is composed of one or more adults with physical and legal custody of a minor child who is 17 years or younger"
+                },
+                {
+                  "id": "nJOn2yZZD3mL",
+                  "ref": "3f8e1fb5-4af7-4cf2-9b8a-c35b337c3948",
+                  "label": "I'm currently pregnant"
+                },
+                {
+                  "id": "P7NLeqqYfXHP",
+                  "ref": "961852da-4119-4260-876a-42bb64fc13dc",
+                  "label": "None of these"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "yWt75lcD3o24",
+            "title": "We suggest contacting the Homeless Prenatal Program, a family resource center in San Francisco that offers a variety of services to homeless and low-income families including prenatal and parenting support.\n\n*Homeless Prenatal Program*\n_Address:_ 2500 18th St\n_Phone:_ (415) 546-6756\n_Learn More_ [_*Here*_](https://sfserviceguide.org/organizations/264)\n\nClick 'Continue' to access resources based on your current housing situation. ",
+            "ref": "6498360a-875d-4fd2-ba5e-8fb430668ef9",
+            "properties": {
+              "hide_marks": false,
+              "button_text": "Continue"
+            },
+            "type": "statement"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "id": "WNc4YFjeUS9t",
+      "title": "What best describes your current housing situation?",
+      "ref": "24cd7382-8277-4471-b86a-767a2a6db995",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "JtDUPS10xYOa",
+            "ref": "1f7157fc-4f92-41d7-9049-2cd85f98b15c",
+            "label": "I need immediate shelter tonight or within the next week"
+          },
+          {
+            "id": "n9rmMTRhaqTA",
+            "ref": "28ad4cb8-ef24-4954-9867-56dbbea5e303",
+            "label": "I am currently at a shelter or some other form of temporary housing"
+          },
+          {
+            "id": "uHW4V6Jmnbpd",
+            "ref": "645282f4-71dd-42e7-9307-2099fd6b8576",
+            "label": "I am currently housed but am at-risk of homelessness"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "dwPbU68x2TMN",
+      "title": "For one-night emergency shelter reservations, you can contact the below shelters or visit an Access Point.  \n\n*First Friendship*\n_Address:_ 501 Steiner Street\n_Phone:_ (415) 642-0221, line available from 12PM-2PM\n_Learn More_ [_*Here*_](https://sfserviceguide.org/organizations/42)\n_Note:_ if you miss the reservation window or need shelter over the weekend, you can go directly to First Friendship between 3-8pm any day. You can also call 311 for more information about how to access First Friendship.\n\n*Providence Church Shelter*\n_Address:_ 1601 McKinnon Ave (at Mendell Street)\n_Phone:_ (415) 206-0263\n_Learn More_ [_*Here*_](https://sfserviceguide.org/organizations/83)\n\n*Hamilton Family Emergency Center*\n_Address:_ 260 Golden Gate Ave @ Hyde Street (Tenderloin)\n_Phone:_ (415) 292-5228, call for beds between 11am and 5pm\n_Learn More_ [_*Here*_](https://sfserviceguide.org/organizations/184)",
+      "ref": "132416fc-ae7f-4be8-b5d2-a8dfcdf1086e",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "View Access Points"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "CwLrFLDf3FWr",
+      "title": "You can also visit the following access points for help accessing emergency shelter: \n\n*Bayview Access Point (Catholic Charities)*\n_Address:_ 1641 LaSalle Avenue\n_Phone:_ 415-430-6320\n_Hours:_\n_- Monday: 8:30am – 7:00pm_ \n_- Tuesday: 8:30am – 5:00pm_\n_- Wednesday: 8:30am – 5:00pm_\n_- Thursday: 8:30am – 5:00pm_\n_- Friday: 8:30am – 5:00pm_\n_- Weekends: Closed_\nLearn More [_*Here*_](https://sfserviceguide.org/organizations/73)\n\n*Central City Access Point (Compass Family Services)*\n_Address:_ 37 Grove Street\n_Phone:_ 415-644-0504\nLearn More [_*Here*_](https://sfserviceguide.org/organizations/202)\n\n*Mission Access Point (Catholic Charities)*\n_Address:_ 2871 Mission St\n_Phone:_ 415-972-1200\nLearn More [_*Here*_](https://sfserviceguide.org/organizations/2560)",
+      "ref": "c97e3d50-196e-407f-bfde-6adeab8f743f",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "bbi50N96hRnt",
+      "title": "Because you are currently housed, many of resources that best fit your needs are provided by San Francisco’s Homelessness Response System and are available through Family Coordinated Entry Access Points. \n\nWe'll point you to these Access Points, and any other resources you are eligible for.",
+      "ref": "f7604a4a-f08f-407c-bed8-263dfb1b998c",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "aoiUCt0AFeZk",
+      "title": "To enter the Family Coordinated Entry System and become eligible for supportive housing, families must be assessed at one of the following Access Points:\n\n*Bayview Access Point (Catholic Charities)*\n_Address:_ 1641 LaSalle Avenue\n_Phone:_ 415-430-6320\n_Hours:_\n_- Monday: 8:30am – 7:00pm_ \n_- Tuesday: 8:30am – 5:00pm_\n_- Wednesday: 8:30am – 5:00pm_\n_- Thursday: 8:30am – 5:00pm_\n_- Friday: 8:30am – 5:00pm_\n_- Weekends: Closed_\nLearn More [_*Here*_](https://sfserviceguide.org/organizations/73)\n\n*Central City Access Point (Compass Family Services)*\n_Address:_ 37 Grove Street\n_Phone:_ 415-644-0504\nLearn More [_*Here*_](https://sfserviceguide.org/organizations/202)\n\n*Mission Access Point (Catholic Charities)*\n_Address:_ 2871 Mission St\n_Phone:_ 415-972-1200\nLearn More [_*Here*_](https://sfserviceguide.org/organizations/2560)\n",
+      "ref": "9e7c6145-a375-4f4b-a0db-573d0af3a8b7",
+      "properties": {
+        "hide_marks": false,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "Dnfap1AocAqM",
+      "title": "Learn about other options you can explore",
+      "ref": "be5c0acc-546a-44af-b890-e290af039f4e",
+      "properties": {
+        "show_button": true,
+        "button_text": "Continue",
+        "fields": [
+          {
+            "id": "ByxE6PZUjYIV",
+            "title": "Homeward Bound\n_Learn More_ [_*Here*_](https://sfserviceguide.org/services/2563)",
+            "ref": "cc9bb3d4-4b7f-4402-9540-5767ff1600ea",
+            "properties": {
+              "hide_marks": false,
+              "button_text": "Continue"
+            },
+            "type": "statement"
+          }
+        ]
+      },
+      "type": "group"
+    }
+  ],
+  "logic": [
+    {
+      "type": "field",
+      "ref": "5fc6d4a2-cd6d-4912-9824-7d774b60d183",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "24cd7382-8277-4471-b86a-767a2a6db995"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "5fc6d4a2-cd6d-4912-9824-7d774b60d183"
+              },
+              {
+                "type": "choice",
+                "value": "18d28bf0-3729-46fd-87bb-9d4d586d296d"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "6498360a-875d-4fd2-ba5e-8fb430668ef9"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "5fc6d4a2-cd6d-4912-9824-7d774b60d183"
+              },
+              {
+                "type": "choice",
+                "value": "3f8e1fb5-4af7-4cf2-9b8a-c35b337c3948"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "3b29a21b-614a-4f8f-a5fd-0348a9c55627"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "5fc6d4a2-cd6d-4912-9824-7d774b60d183"
+              },
+              {
+                "type": "choice",
+                "value": "961852da-4119-4260-876a-42bb64fc13dc"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "24cd7382-8277-4471-b86a-767a2a6db995",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "132416fc-ae7f-4be8-b5d2-a8dfcdf1086e"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "24cd7382-8277-4471-b86a-767a2a6db995"
+              },
+              {
+                "type": "choice",
+                "value": "1f7157fc-4f92-41d7-9049-2cd85f98b15c"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "f7604a4a-f08f-407c-bed8-263dfb1b998c"
+            }
+          },
+          "condition": {
+            "op": "or",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "24cd7382-8277-4471-b86a-767a2a6db995"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "28ad4cb8-ef24-4954-9867-56dbbea5e303"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "24cd7382-8277-4471-b86a-767a2a6db995"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "645282f4-71dd-42e7-9307-2099fd6b8576"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "6498360a-875d-4fd2-ba5e-8fb430668ef9",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "24cd7382-8277-4471-b86a-767a2a6db995"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "f7604a4a-f08f-407c-bed8-263dfb1b998c",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "9e7c6145-a375-4f4b-a0db-573d0af3a8b7"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "132416fc-ae7f-4be8-b5d2-a8dfcdf1086e",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "c97e3d50-196e-407f-bfde-6adeab8f743f"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "cc9bb3d4-4b7f-4402-9540-5767ff1600ea",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "a0f698a6-aa1a-43f2-bb73-c2d9905a0289"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "display": "https://sheltertech.typeform.com/to/els5q2"
+  }
+}

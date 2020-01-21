@@ -1,0 +1,34 @@
+{
+  "id": "tIe2qs",
+  "title": "New typeform",
+  "theme": {
+    "href": "https://api.typeform.com/themes/6lPNE6"
+  },
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/2p9FRv"
+  },
+  "settings": {
+    "is_public": false,
+    "is_trial": false,
+    "language": "en",
+    "progress_bar": "proportion",
+    "show_progress_bar": true,
+    "show_typeform_branding": true,
+    "meta": {
+      "allow_indexing": false
+    }
+  },
+  "thankyou_screens": [
+    {
+      "ref": "default_tys",
+      "title": "Done! Your information was sent perfectly.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false
+      }
+    }
+  ],
+  "_links": {
+    "display": "https://sheltertech.typeform.com/to/tIe2qs"
+  }
+}

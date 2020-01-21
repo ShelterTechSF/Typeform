@@ -1,0 +1,778 @@
+{
+  "id": "Td3Oba",
+  "title": "Casey EP Guide",
+  "theme": {
+    "href": "https://api.typeform.com/themes/4znBlw"
+  },
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/2p9FRv"
+  },
+  "settings": {
+    "is_public": true,
+    "is_trial": false,
+    "language": "en",
+    "progress_bar": "percentage",
+    "show_progress_bar": false,
+    "show_typeform_branding": true,
+    "meta": {
+      "allow_indexing": true
+    }
+  },
+  "welcome_screens": [
+    {
+      "ref": "d56f28e3d6a8ab09",
+      "title": "Welcome to the Eviction Prevention Guide.",
+      "properties": {
+        "show_button": true,
+        "description": "We want to help you stay in your home. We'll help guide you to the right resources, and if need be, connect you to legal help. Currently, we are only able to assist people who live in SF.",
+        "button_text": "Let's get started"
+      },
+      "attachment": {
+        "type": "image",
+        "href": "https://images.typeform.com/images/BWUQTEf6CD2q"
+      }
+    }
+  ],
+  "thankyou_screens": [
+    {
+      "ref": "a0dc",
+      "title": "{{field:3307921bf5113e9e}}, you should contact the Eviction Defense Council (EDC) right away. They will help you appeal the notice.\n\nHere is their number:\n\nMake sure to gather the following information",
+      "properties": {
+        "show_button": false,
+        "share_icons": false,
+        "button_mode": "reload",
+        "button_text": "again"
+      }
+    },
+    {
+      "ref": "59eb0433-21bc-44e3-90a3-872f7c1598f9",
+      "title": "{{field:3307921bf5113e9e}}, you should visit the SF Tenants Union for their drop-in clinic on MWF, 3-5pm. They will help you with mediation and counseling.\n\nHere is their address:\n\nMake sure to gather the following information.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false,
+        "button_mode": "reload",
+        "button_text": "again"
+      }
+    },
+    {
+      "ref": "24a5",
+      "title": "{{field:3307921bf5113e9e}}, you should contact the Housing Right Committee (HRC). They will help you understand your rights.\n\nHere is their number:\n\nMake sure to gather the following paperwork.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false,
+        "button_mode": "reload",
+        "button_text": "again"
+      }
+    },
+    {
+      "ref": "ae76c814-ef14-4042-ac33-7efdd06e2f12",
+      "title": "{{field:3307921bf5113e9e}}, you should contact the Homeless Advocacy Project (HAP). They will help you .\n\nHere is their number:\n\nMake sure to gather the following paperwork.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false,
+        "button_mode": "reload",
+        "button_text": "again"
+      }
+    },
+    {
+      "ref": "dfc447d1-68a0-4ae0-a95e-e52825c0134e",
+      "title": "{{field:3307921bf5113e9e}}, you should contact the Bay Area Legal Aid. They will help you .\n\nHere is their number:\n\nMake sure to gather the following paperwork.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false,
+        "button_mode": "reload",
+        "button_text": "again"
+      }
+    },
+    {
+      "ref": "e49b7452-a579-459c-abff-c64bf569eed3",
+      "title": "{{field:3307921bf5113e9e}}, you should contact the SF Rent Board. They will help you ...\n\nHere is their number:\n\nMake sure to gather the following paperwork.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false,
+        "button_mode": "reload",
+        "button_text": "again"
+      }
+    },
+    {
+      "ref": "ea9f8988-307d-4b09-8fc2-dfdab91ed3d1",
+      "title": "[Translate to Cantonese and Mandarin] You should contact the CCDC. They will help you ...\n\nHere is their number:\n\nMake sure to gather the following paperwork.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false,
+        "button_mode": "reload",
+        "button_text": "again"
+      }
+    },
+    {
+      "ref": "877a9116-1518-481a-8a9f-2422f0a5c9ad",
+      "title": "[Translate to Spanish] You should contact the HRC. They will help you ...\n\nHere is their number:\n\nMake sure to gather the following paperwork.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false,
+        "button_mode": "reload",
+        "button_text": "again"
+      }
+    },
+    {
+      "ref": "79e52cd6-b11e-4af8-a27c-aea3aff466d6",
+      "title": "[Translate to Russian] You should contact the HRC. They will help you ...\n\nHere is their number:\n\nMake sure to gather the following paperwork.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false,
+        "button_mode": "reload",
+        "button_text": "again"
+      }
+    },
+    {
+      "ref": "a4024f6c-6583-4d47-a4f6-9230ebd94ece",
+      "title": "[Translate to Tagalog] You should contact the SOMCAN. They will help you ...\n\nHere is their number:\n\nMake sure to gather the following paperwork.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false,
+        "button_mode": "reload",
+        "button_text": "again"
+      }
+    },
+    {
+      "ref": "default_tys",
+      "title": "Done! Your information was sent perfectly.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "TBwekwqk1jLV",
+      "title": "Do you speak English?",
+      "ref": "aab5d785-bec9-4c93-bd62-fe0a8041dca8",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "LUGhjJpIyiBl",
+      "title": "Please select your preferred language.",
+      "ref": "490534ca-9317-45f3-933d-dec72cb087fd",
+      "properties": {
+        "alphabetical_order": false,
+        "randomize": null,
+        "choices": [
+          {
+            "label": "Spanish"
+          },
+          {
+            "label": "Cantonese or Mandarin"
+          },
+          {
+            "label": "Russian"
+          },
+          {
+            "label": "Tagalog"
+          },
+          {
+            "label": "Other"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "dropdown"
+    },
+    {
+      "id": "eT096ZT8ECCg",
+      "title": "What's first your name?",
+      "ref": "3307921bf5113e9e",
+      "properties": {
+        "description": "A nickname will do, too."
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "short_text"
+    },
+    {
+      "id": "ZTYqt6imDtrD",
+      "title": "Thanks, {{field:3307921bf5113e9e}}. Now, we'd like to better understand your situation.",
+      "ref": "9ba0cfe31b4e57f3",
+      "properties": {
+        "show_button": false,
+        "button_text": "Continue",
+        "fields": [
+          {
+            "id": "ue4QUNjntCpf",
+            "title": "Have you received a notice from the Sheriff to vacate the premises, a 'Summons', an 'Unlawful Detainer', a 'Cure or Quit', or a 'Notice Terminating Tenancy'?",
+            "ref": "3693c20f-8f55-44c4-9e65-e2f29a3ed4b0",
+            "validations": {
+              "required": false
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "PdzMLY15zm67",
+            "title": "Have you received a 3-Day Notice or a 10-day Notice",
+            "ref": "3c9a3e7c-fb7c-421f-9d17-44440b0b9a0d",
+            "validations": {
+              "required": false
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "ae4FmnRRrUZt",
+            "title": "Have you received a 30-Day, 60-Day, 90-Day, or 120-Day Notice?",
+            "ref": "7eab0a8b-a52a-410a-a243-b1afdefd7805",
+            "validations": {
+              "required": false
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "eY0gsTnrXvTO",
+            "title": "Which, if any, of these apply?",
+            "ref": "4898c9dd540b683a",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": false,
+              "choices": [
+                {
+                  "id": "fvgjEH1QTo3O",
+                  "ref": "71a0b99caafbb577",
+                  "label": "My landlord is threatening eviction"
+                },
+                {
+                  "id": "uDMHW7xYPfRZ",
+                  "ref": "c3ca1a40c66a5f5c",
+                  "label": "I have missed at least one month of rent payment"
+                },
+                {
+                  "id": "fyAhAXlL5vfk",
+                  "ref": "a19afe759921955a",
+                  "label": "I have received at least one verbal or written warning about my living habits (ie hoarding, cleanliness, etc)"
+                },
+                {
+                  "id": "GdHLPLqQgrFn",
+                  "ref": "22836a6a-f259-4d62-8f05-25d42c3a1735",
+                  "label": "I have received noise complaints from my neighbors and/or landlord"
+                },
+                {
+                  "id": "Am2ARYNUTbiE",
+                  "ref": "0e9a3cd7-0ad1-4028-80c9-8d7f8937cc27",
+                  "label": "My landlord is selling the apartment and I may have to move out"
+                },
+                {
+                  "id": "XCwXXg9ET1XS",
+                  "ref": "293ed6c8-8c06-4608-b091-656037032beb",
+                  "label": "My landlord told me that I will need to move out because they or their family will move into the unit"
+                },
+                {
+                  "id": "uFf9KnBbM3XA",
+                  "ref": "01df12e1-7440-42af-9404-af8d2ccd69e9",
+                  "label": "I have been staying in a hotel because of renovations, and my landlord keeps extending"
+                }
+              ]
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "KAys9fayBxMr",
+            "title": "Please select any that are true",
+            "ref": "a1961dafdaa7bb09",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": false,
+              "choices": [
+                {
+                  "id": "lYM1kr4hyzTv",
+                  "ref": "4aa54ad29984b2b0",
+                  "label": "I am currently a victim of domestic violence"
+                },
+                {
+                  "id": "ngPtm6Ux6e8Q",
+                  "ref": "1b95630020ef1aa9",
+                  "label": "I have been diagnosed with HIV/AIDS"
+                }
+              ]
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    }
+  ],
+  "logic": [
+    {
+      "type": "field",
+      "ref": "4898c9dd540b683a",
+      "actions": [
+        {
+          "action": "add",
+          "details": {
+            "target": {
+              "type": "variable",
+              "value": "score"
+            },
+            "value": {
+              "type": "constant",
+              "value": 0
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "4898c9dd540b683a"
+              },
+              {
+                "type": "choice",
+                "value": "71a0b99caafbb577"
+              }
+            ]
+          }
+        },
+        {
+          "action": "add",
+          "details": {
+            "target": {
+              "type": "variable",
+              "value": "score"
+            },
+            "value": {
+              "type": "constant",
+              "value": 0
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "4898c9dd540b683a"
+              },
+              {
+                "type": "choice",
+                "value": "c3ca1a40c66a5f5c"
+              }
+            ]
+          }
+        },
+        {
+          "action": "add",
+          "details": {
+            "target": {
+              "type": "variable",
+              "value": "score"
+            },
+            "value": {
+              "type": "constant",
+              "value": 0
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "4898c9dd540b683a"
+              },
+              {
+                "type": "choice",
+                "value": "a19afe759921955a"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "a1961dafdaa7bb09",
+      "actions": [
+        {
+          "action": "add",
+          "details": {
+            "target": {
+              "type": "variable",
+              "value": "score"
+            },
+            "value": {
+              "type": "constant",
+              "value": 1
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "a1961dafdaa7bb09"
+              },
+              {
+                "type": "choice",
+                "value": "4aa54ad29984b2b0"
+              }
+            ]
+          }
+        },
+        {
+          "action": "add",
+          "details": {
+            "target": {
+              "type": "variable",
+              "value": "score"
+            },
+            "value": {
+              "type": "constant",
+              "value": 0
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "a1961dafdaa7bb09"
+              },
+              {
+                "type": "choice",
+                "value": "1b95630020ef1aa9"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "490534ca-9317-45f3-933d-dec72cb087fd",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "877a9116-1518-481a-8a9f-2422f0a5c9ad"
+            }
+          },
+          "condition": {
+            "op": "equal",
+            "vars": [
+              {
+                "type": "field",
+                "value": "490534ca-9317-45f3-933d-dec72cb087fd"
+              },
+              {
+                "type": "constant",
+                "value": "Spanish"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "79e52cd6-b11e-4af8-a27c-aea3aff466d6"
+            }
+          },
+          "condition": {
+            "op": "equal",
+            "vars": [
+              {
+                "type": "field",
+                "value": "490534ca-9317-45f3-933d-dec72cb087fd"
+              },
+              {
+                "type": "constant",
+                "value": "Russian"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "a4024f6c-6583-4d47-a4f6-9230ebd94ece"
+            }
+          },
+          "condition": {
+            "op": "equal",
+            "vars": [
+              {
+                "type": "field",
+                "value": "490534ca-9317-45f3-933d-dec72cb087fd"
+              },
+              {
+                "type": "constant",
+                "value": "Tagalog"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "ea9f8988-307d-4b09-8fc2-dfdab91ed3d1"
+            }
+          },
+          "condition": {
+            "op": "or",
+            "vars": [
+              {
+                "op": "equal",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "490534ca-9317-45f3-933d-dec72cb087fd"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "Cantonese"
+                  }
+                ]
+              },
+              {
+                "op": "equal",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "490534ca-9317-45f3-933d-dec72cb087fd"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "Mandarin"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "24a5"
+            }
+          },
+          "condition": {
+            "op": "equal",
+            "vars": [
+              {
+                "type": "field",
+                "value": "490534ca-9317-45f3-933d-dec72cb087fd"
+              },
+              {
+                "type": "constant",
+                "value": "Other"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "3307921bf5113e9e"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "aab5d785-bec9-4c93-bd62-fe0a8041dca8",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "3307921bf5113e9e"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "aab5d785-bec9-4c93-bd62-fe0a8041dca8"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "490534ca-9317-45f3-933d-dec72cb087fd"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "7eab0a8b-a52a-410a-a243-b1afdefd7805",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "59eb0433-21bc-44e3-90a3-872f7c1598f9"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "7eab0a8b-a52a-410a-a243-b1afdefd7805"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "4898c9dd540b683a"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "3c9a3e7c-fb7c-421f-9d17-44440b0b9a0d",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "24a5"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "3c9a3e7c-fb7c-421f-9d17-44440b0b9a0d"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "7eab0a8b-a52a-410a-a243-b1afdefd7805"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "3693c20f-8f55-44c4-9e65-e2f29a3ed4b0",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "a0dc"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "3693c20f-8f55-44c4-9e65-e2f29a3ed4b0"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "3c9a3e7c-fb7c-421f-9d17-44440b0b9a0d"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "score": 0
+  },
+  "_links": {
+    "display": "https://sheltertech.typeform.com/to/Td3Oba"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "NruYEf",
+  "title": "Website Questionnaire (copy)",
+  "theme": {
+    "href": "https://api.typeform.com/themes/BwVsel"
+  },
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/tmqYJc"
+  },
+  "settings": {
+    "is_public": false,
+    "is_trial": false,
+    "language": "en",
+    "progress_bar": "proportion",
+    "show_progress_bar": true,
+    "show_typeform_branding": true,
+    "meta": {
+      "allow_indexing": false
+    }
+  },
+  "welcome_screens": [
+    {
+      "ref": "fd849652-f332-4f81-b47a-d717a82ba31b",
+      "title": "Thanks for agreeing to give us some feedback. ",
+      "properties": {
+        "show_button": true,
+        "description": "This questionnaire should take no longer than 3 minutes.",
+        "button_text": "Let's start"
+      },
+      "attachment": {
+        "type": "image",
+        "href": "https://images.typeform.com/images/pCNBYm7xyGSV"
+      }
+    }
+  ],
+  "thankyou_screens": [
+    {
+      "ref": "f3de",
+      "title": "Thank you for sharing your thoughts—we'll use your opinions to improve our website.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false,
+        "button_mode": "reload",
+        "button_text": "again"
+      }
+    },
+    {
+      "ref": "default_tys",
+      "title": "Done! Your information was sent perfectly.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "uwIfD0icyzi9",
+      "title": "Can you describe your first impression of our website in three words?",
+      "ref": "7b8c2c13cf9e115f",
+      "validations": {
+        "required": false
+      },
+      "type": "short_text"
+    },
+    {
+      "id": "w1WcHO74qbN0",
+      "title": "What did you like about our website?",
+      "ref": "6a327be4b7d0ff36",
+      "validations": {
+        "required": false
+      },
+      "type": "short_text"
+    },
+    {
+      "id": "m0JvAoMMZifD",
+      "title": "And what didn't you like?",
+      "ref": "f270064135b0c1b3",
+      "validations": {
+        "required": false
+      },
+      "type": "short_text"
+    },
+    {
+      "id": "Gbnv0pSgTF1E",
+      "title": "Now, what was the main reason you visited our website?",
+      "ref": "49f03f1fb3c69b00",
+      "validations": {
+        "required": false
+      },
+      "type": "short_text"
+    },
+    {
+      "id": "qIGlc13Gd1lu",
+      "title": "And how likely are you to return?",
+      "ref": "75701b75c82e93be",
+      "properties": {
+        "steps": 10,
+        "start_at_one": true,
+        "labels": {
+          "left": "Not likely "
+        }
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "opinion_scale"
+    },
+    {
+      "id": "RGCDsi3TTM3a",
+      "title": "Before you go, would you mind leaving your email address? ",
+      "ref": "65ca619130221a30",
+      "properties": {
+        "description": "_We'll use this to get in touch with you if we have any further questions_"
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "email"
+    }
+  ],
+  "_links": {
+    "display": "https://sheltertech.typeform.com/to/NruYEf"
+  }
+}

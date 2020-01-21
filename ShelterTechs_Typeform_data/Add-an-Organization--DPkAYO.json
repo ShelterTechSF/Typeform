@@ -1,0 +1,390 @@
+{
+  "id": "DPkAYO",
+  "title": "Add an Organization",
+  "theme": {
+    "href": "https://api.typeform.com/themes/SYQhDk"
+  },
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/xwquu7"
+  },
+  "settings": {
+    "is_public": true,
+    "is_trial": false,
+    "language": "en",
+    "progress_bar": "percentage",
+    "show_progress_bar": false,
+    "show_typeform_branding": false,
+    "meta": {
+      "allow_indexing": false
+    },
+    "redirect_after_submit_url": "https://sfserviceguide.org"
+  },
+  "welcome_screens": [
+    {
+      "ref": "fb221733-c10a-482d-b8d0-36d5e7a03faa",
+      "title": "Thank you for helping us improve the SF Service Guide. \n\nPlease complete the following questions to add a new resource to the SF Service Guide.\n\nOnce we receive this request to add a new resource, we'll verify its accuracy and it to the website. This process may take up to 2-3 weeks.",
+      "properties": {
+        "show_button": true,
+        "button_text": "Start"
+      }
+    }
+  ],
+  "thankyou_screens": [
+    {
+      "ref": "c9093cc9-e29c-4d99-a8cf-7c1ecb13b60c",
+      "title": "Thank you for adding an organization to SF Service Guide. Your submission will be reviewed as soon as possible.",
+      "properties": {
+        "show_button": true,
+        "share_icons": false,
+        "button_mode": "redirect",
+        "button_text": "Go to SF Service Guide",
+        "redirect_url": "https://sfserviceguide.org"
+      }
+    },
+    {
+      "ref": "default_tys",
+      "title": "Done! Your information was sent perfectly.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "nqMgARq8mW3a",
+      "title": "*Organization Details*\nThe next few questions will ask you about the organization you'd like to add to SF Service Guide.",
+      "ref": "4c71afc3-114b-4418-a385-144bc83b7012",
+      "properties": {
+        "show_button": true,
+        "button_text": "Continue",
+        "fields": [
+          {
+            "id": "ZGCjX8frgNAU",
+            "title": "What is the name of the organization?",
+            "ref": "eec4d1c4-c9b4-439c-9b92-8fcd0c12e700",
+            "validations": {
+              "required": true
+            },
+            "type": "short_text"
+          },
+          {
+            "id": "dT6HV302mQDu",
+            "title": "In 1-2 sentences, please describe the organization's purpose.",
+            "ref": "558f4f36-fd4e-40cf-95c8-9afd37064359",
+            "properties": {
+              "description": "For example: \"Episcopal Community Services of San Francisco (ECS) helps homeless and very low-income people obtain the housing, jobs, shelter, and essential services each person needs to prevent and end homelessness.\""
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "long_text"
+          },
+          {
+            "id": "kv1AzxcD9lKy",
+            "title": "What is the organization's address? ",
+            "ref": "4f64eab0-e492-4196-a98e-f99b342f4062",
+            "properties": {
+              "description": "If no physical address, such as a hotline, please specify why there is no address."
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "long_text"
+          },
+          {
+            "id": "A2nId2u52wCG",
+            "title": "What hours is the organization open?",
+            "ref": "4d10cfca-20af-4f90-83dc-35b451d15ce6",
+            "validations": {
+              "required": false
+            },
+            "type": "long_text"
+          },
+          {
+            "id": "qYPMAWOtknXe",
+            "title": "What is the main phone number for the organization?",
+            "ref": "66d1f47d-8c38-4300-959a-388e31cf629d",
+            "properties": {
+              "default_country_code": "us"
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "phone_number"
+          },
+          {
+            "id": "GUskXNUvYIXC",
+            "title": "Does the organization have a website?",
+            "ref": "bf21ce42-146b-4971-9541-c31e231df592",
+            "validations": {
+              "required": false
+            },
+            "type": "website"
+          },
+          {
+            "id": "pxewxzn30RHC",
+            "title": "Is there an email address to contact the organization?",
+            "ref": "b3939d5c-d44c-4a10-a989-66080c9531ad",
+            "validations": {
+              "required": false
+            },
+            "type": "email"
+          },
+          {
+            "id": "INoPhsYHwNQF",
+            "title": "Is the organization a:",
+            "ref": "15ca3f5b-4c7a-4c51-88a5-73e08cccb483",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "lyp1hJD1Y3Ii",
+                  "ref": "bd9dcc97-201c-40f2-affd-92f9bd810e54",
+                  "label": "Government Agency"
+                },
+                {
+                  "id": "FwlQkCyftqa1",
+                  "ref": "aaa595a2-20bb-4624-86bf-90fb58b2f761",
+                  "label": "Non-Profit"
+                },
+                {
+                  "id": "e7i7wHTf33L0",
+                  "ref": "91760136-ff92-4cbc-9da3-997de43bbb19",
+                  "label": "For-Profit Business"
+                },
+                {
+                  "id": "OqrpuC3J1p5V",
+                  "ref": "602115ab-dfff-4e73-b9b4-f867d3727f0d",
+                  "label": "I don't know"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "id": "g4R3UKm3UElS",
+      "title": "*Service Details*\nThe next few questions will focus on the primary service this organization provides to its users or clients. You can additional services later. ",
+      "ref": "eab8a780-7a25-491e-b4b2-74a73c3852ed",
+      "properties": {
+        "show_button": true,
+        "button_text": "Continue",
+        "fields": [
+          {
+            "id": "lruG7MnD9do5",
+            "title": "What is the name of the primary service?",
+            "ref": "0b087060-3a48-4367-8439-cace7649e90a",
+            "properties": {
+              "description": "For example: Housing Application Workshops"
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "short_text"
+          },
+          {
+            "id": "I6XQo5TPiF0O",
+            "title": "Please describe the service in 1-2 sentences:",
+            "ref": "37c72f91-6297-4f7b-8ff2-5c6615db6d68",
+            "properties": {
+              "description": "For example: \"Get free application assistance for  affordable ownership opportunities and down payment assistance programs at drop-in application clinic.\""
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "long_text"
+          },
+          {
+            "id": "UnBN3OlKWnIQ",
+            "title": "How can someone apply for this service?",
+            "ref": "04552995-fdd3-45aa-9874-38f60483ab17",
+            "validations": {
+              "required": false
+            },
+            "type": "long_text"
+          },
+          {
+            "id": "pEOeLovO3alM",
+            "title": "Are there any eligibility requirements?",
+            "ref": "03030863-613d-4f06-a754-a7d4a387d877",
+            "validations": {
+              "required": false
+            },
+            "type": "long_text"
+          },
+          {
+            "id": "tE5H7GiTSK7T",
+            "title": "How much does this service cost?",
+            "ref": "b02cb106-6385-4508-9b8b-260759f7fcd7",
+            "validations": {
+              "required": false
+            },
+            "type": "long_text"
+          },
+          {
+            "id": "kSKOKSGfFtBg",
+            "title": "Is a referral from a case manager needed to access this service and is there a waitlist?",
+            "ref": "ca1d3e7a-c773-44c4-9055-7f8de2b66000",
+            "validations": {
+              "required": false
+            },
+            "type": "long_text"
+          },
+          {
+            "id": "XM6W3sxVZ412",
+            "title": "Is there a website with more information about this service?",
+            "ref": "a16dc888-d5c4-40eb-bfba-d60b0344a6a8",
+            "validations": {
+              "required": false
+            },
+            "type": "website"
+          },
+          {
+            "id": "miU9n37iD8vO",
+            "title": "Is the location and hours the same as the organization? If different, please specify:",
+            "ref": "9bcac189-ac50-4031-8beb-9cd8d952d52d",
+            "validations": {
+              "required": false
+            },
+            "type": "long_text"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "id": "hOQ3nGMscewy",
+      "title": "If there are more than one services offered by this organization, please [click here](https://sheltertech.typeform.com/to/La0l5A) and fill out the form for each additional service.",
+      "ref": "8a6bd822-168f-42f1-80c2-a3f9115733c0",
+      "properties": {
+        "hide_marks": true,
+        "button_text": "Continue"
+      },
+      "type": "statement"
+    },
+    {
+      "id": "Yg3h0orQGrJj",
+      "title": "Are you a representative or employee of the organization?",
+      "ref": "44aa00f7-7b98-450e-be49-435b61ff6f73",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "MifYDbhckOgg",
+      "title": "May we contact you for follow up if we have questions about your submission?",
+      "ref": "93ea378f-b9a2-4664-ac6f-716384242910",
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "DhF5SVe0a9VU",
+      "title": "What is your name?",
+      "ref": "52a077c2-9449-4032-bd20-11adf6fd31c6",
+      "validations": {
+        "required": false
+      },
+      "type": "short_text"
+    },
+    {
+      "id": "vHmQark2VjYp",
+      "title": "What is your phone number?",
+      "ref": "f19f1ca1-c7ff-4db3-9e95-44b22909da04",
+      "properties": {
+        "description": "If you prefer to be contacted by email, skip this question.",
+        "default_country_code": "us"
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "phone_number"
+    },
+    {
+      "id": "sTrPjI2EaDEM",
+      "title": "What is your email address?",
+      "ref": "182409b6-fed6-4d8d-a2c6-83cc7abfa24c",
+      "validations": {
+        "required": false
+      },
+      "type": "email"
+    }
+  ],
+  "logic": [
+    {
+      "type": "field",
+      "ref": "93ea378f-b9a2-4664-ac6f-716384242910",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "52a077c2-9449-4032-bd20-11adf6fd31c6"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "93ea378f-b9a2-4664-ac6f-716384242910"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "c9093cc9-e29c-4d99-a8cf-7c1ecb13b60c"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "182409b6-fed6-4d8d-a2c6-83cc7abfa24c",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "c9093cc9-e29c-4d99-a8cf-7c1ecb13b60c"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "display": "https://sheltertech.typeform.com/to/DPkAYO"
+  }
+}

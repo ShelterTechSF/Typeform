@@ -1,0 +1,455 @@
+{
+  "id": "uZSymn",
+  "title": "Simplified Test -AL",
+  "theme": {
+    "href": "https://api.typeform.com/themes/6lPNE6"
+  },
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/2p9FRv"
+  },
+  "settings": {
+    "is_public": true,
+    "is_trial": false,
+    "language": "en",
+    "progress_bar": "percentage",
+    "show_progress_bar": true,
+    "show_typeform_branding": true,
+    "meta": {
+      "allow_indexing": false
+    }
+  },
+  "thankyou_screens": [
+    {
+      "ref": "default_tys",
+      "title": "Done! Your information was sent perfectly.",
+      "properties": {
+        "show_button": false,
+        "share_icons": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "Yy6saqmVRf4r",
+      "title": "which of the following do you identify with?",
+      "ref": "d90aa56a-9f1c-4dd1-9b78-2fd48d9e2e73",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": true,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "tJM0OPry7dE5",
+            "ref": "4aa5fe99-21d1-4e3d-a3e8-a0fd91bd6359",
+            "label": "A"
+          },
+          {
+            "id": "jPHNh9Zd6bOr",
+            "ref": "0236e3d3-40ec-43a5-9f61-14c6cc9139a0",
+            "label": "B"
+          },
+          {
+            "id": "QVRZaAdTnPwz",
+            "ref": "d0bb4426-2475-40e3-8fe6-9a3363686be8",
+            "label": "C"
+          },
+          {
+            "id": "wBH5RmADkAvC",
+            "ref": "8b3dd5ff-c4c2-40d8-bcbc-279e93cbe49c",
+            "label": "D"
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "E5aXlXrlA5qk",
+      "title": "Group A & C Combination",
+      "ref": "5318b86c-488d-4d15-a9ec-8738115f1aa4",
+      "properties": {
+        "show_button": true,
+        "button_text": "Continue",
+        "fields": [
+          {
+            "id": "KvKdxSLWRMrj",
+            "title": "Question A1",
+            "ref": "6ebcf567-d61a-4fde-9d92-f0e04eb83e9b",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "UOvmpic9iky7",
+                  "ref": "d135e00d-0c4a-4683-aa33-50424734a49d",
+                  "label": "1"
+                },
+                {
+                  "id": "BVRHXEPyTvmE",
+                  "ref": "6765208a-9d85-48e6-92ac-610c9eab0727",
+                  "label": "2"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "aDJfL5s4eyoJ",
+            "title": "Question A2",
+            "ref": "bf4a18de-5403-4116-bd60-506e55c8eff0",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "KRXyn6g6em6T",
+                  "ref": "3f36e711-000f-43e0-9ce4-7bc2c27289c3",
+                  "label": "1"
+                },
+                {
+                  "id": "yeiyHETcPxIE",
+                  "ref": "8ebeabda-25e3-4597-9fb4-90bd0e5d6608",
+                  "label": "2"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "QQD5i8ACiHoL",
+            "title": "Question C1",
+            "ref": "ce13555a-e4fc-408d-b4d3-81f0cd3f6dbe",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "oHEzC6PLwx5R",
+                  "ref": "2c1863b1-7473-4f4c-8b31-a6913e5353f1",
+                  "label": "1"
+                },
+                {
+                  "id": "o3Z8RQszc1J0",
+                  "ref": "a955d931-ac40-4eba-a6f5-80eb851ef127",
+                  "label": "2"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "Z4d6ZMFlpXqs",
+            "title": "...",
+            "ref": "cda6cc14-9c20-464e-80d3-14270a296627",
+            "validations": {
+              "required": false
+            },
+            "type": "short_text"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "id": "XHiJxcZaFeIA",
+      "title": "Group A Questions",
+      "ref": "56994875-fbd9-489c-aadd-956d32a33e9c",
+      "properties": {
+        "show_button": true,
+        "button_text": "Continue",
+        "fields": [
+          {
+            "id": "vRy9ZPjgV0DR",
+            "title": "Question A1",
+            "ref": "bc5d2b34-a9ab-4e70-b27a-5b11e3e7cfd1",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "yC49mHUpwJBe",
+                  "ref": "d135e00d-0c4a-4683-aa33-50424734a49d",
+                  "label": "1"
+                },
+                {
+                  "id": "AOzwMhpqFGjE",
+                  "ref": "6765208a-9d85-48e6-92ac-610c9eab0727",
+                  "label": "2"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "m0fpUsIW9YCN",
+            "title": "Question A2",
+            "ref": "c4fbecb5-9fe6-4019-8131-4a597983577b",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "spqogMXj0VJ2",
+                  "ref": "3f36e711-000f-43e0-9ce4-7bc2c27289c3",
+                  "label": "1"
+                },
+                {
+                  "id": "XzIK6wAmmH9X",
+                  "ref": "8ebeabda-25e3-4597-9fb4-90bd0e5d6608",
+                  "label": "2"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "id": "K4S6n5J5he43",
+      "title": "Group B Questions",
+      "ref": "72224166-4af6-4257-8e76-c0bcf09d6416",
+      "properties": {
+        "show_button": true,
+        "button_text": "Continue",
+        "fields": [
+          {
+            "id": "Qydqxt9gybIN",
+            "title": "Question B1",
+            "ref": "64763eb3-f487-40e4-bd04-25f677e45b8d",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "ckLPVCumNZXL",
+                  "ref": "ae9d4838-9f20-4b6b-8dae-a9d4ad7a8cf3",
+                  "label": "1"
+                },
+                {
+                  "id": "Otcazj5sS1te",
+                  "ref": "04c55762-7118-4d03-9f74-fac88d3eb97d",
+                  "label": "2"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "lFhiJpizpRty",
+            "title": "Question B2",
+            "ref": "66809c2f-02b6-4d12-8251-4d8af4313cc6",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "VNuYrKqema3v",
+                  "ref": "45070626-d5f4-4a6b-8b5b-d61fa83e685e",
+                  "label": "1"
+                },
+                {
+                  "id": "FfGHXaiGyhZI",
+                  "ref": "cc4e2b45-d456-41ed-9646-ec6b15219a6f",
+                  "label": "2"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "id": "HpdyNYbUQfXx",
+      "title": "Group C Questions",
+      "ref": "312a5565-dafd-4afa-bfd5-bb7f2ce2f118",
+      "properties": {
+        "show_button": true,
+        "button_text": "Continue",
+        "fields": [
+          {
+            "id": "NIVMLbUZs0bl",
+            "title": "Question C1",
+            "ref": "5dd716bd-fc95-4245-9708-3d0de25a250e",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "osz73wCHZ3iV",
+                  "ref": "2c1863b1-7473-4f4c-8b31-a6913e5353f1",
+                  "label": "1"
+                },
+                {
+                  "id": "vijTbRg3iyyY",
+                  "ref": "a955d931-ac40-4eba-a6f5-80eb851ef127",
+                  "label": "2"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "id": "gaJYGNhu4jw8",
+      "title": "Group D Questions",
+      "ref": "f1e2cfbe-1f3c-4bee-a4e5-e4455dc343cf",
+      "properties": {
+        "show_button": true,
+        "button_text": "Continue",
+        "fields": [
+          {
+            "id": "WjaOADtE2aG5",
+            "title": "Question D1",
+            "ref": "cc1fd29a-7615-438f-be44-fada50cdafdf",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": false,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "jvbaNiASPfNf",
+                  "ref": "75039e8c-12f9-4236-837d-1cbc5086c136",
+                  "label": "1"
+                },
+                {
+                  "id": "WwEfYIyxsPzm",
+                  "ref": "24a9df63-33ae-4235-9e32-8aeb3a9493d5",
+                  "label": "2"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    }
+  ],
+  "logic": [
+    {
+      "type": "field",
+      "ref": "d90aa56a-9f1c-4dd1-9b78-2fd48d9e2e73",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "56994875-fbd9-489c-aadd-956d32a33e9c"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "d90aa56a-9f1c-4dd1-9b78-2fd48d9e2e73"
+              },
+              {
+                "type": "choice",
+                "value": "4aa5fe99-21d1-4e3d-a3e8-a0fd91bd6359"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "5318b86c-488d-4d15-a9ec-8738115f1aa4"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "d90aa56a-9f1c-4dd1-9b78-2fd48d9e2e73"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "4aa5fe99-21d1-4e3d-a3e8-a0fd91bd6359"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "d90aa56a-9f1c-4dd1-9b78-2fd48d9e2e73"
+                  },
+                  {
+                    "type": "choice",
+                    "value": "d0bb4426-2475-40e3-8fe6-9a3363686be8"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "display": "https://sheltertech.typeform.com/to/uZSymn"
+  }
+}
